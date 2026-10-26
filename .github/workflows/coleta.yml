@@ -1,0 +1,30 @@
+name: Curadoria diária - 7h Pernambuco
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: coleta-diaria
+  cancel-in-progress: false
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Buscar referências públicas
+        run: node scripts/collect.mjs
+      - name: Validar acervo
+        run: node scripts/check.mjs
+      - name: Publicar atualização
+        run: |
+          git config user.name "Observatório Econômico"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data.json
+          git diff --cached --quiet || git commit -m "Atualiza curadoria diária"
+          git push
