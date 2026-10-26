@@ -1,23 +1,24 @@
 # Observatório Econômico
-Portal público de notícias e leituras com foco em Pernambuco, Nordeste e Brasil.
 
-## Publicação no Cloudflare
-Conectar este repositório ao Cloudflare Pages. Sem framework, sem comando de build, diretório de saída: public.
-Alternativa: Cloudflare Workers Static Assets com wrangler.jsonc.
+Portal público em https://observatorio-economico.pages.dev/ — código nesta conta GitHub e publicação automática no Cloudflare Pages.
 
-## Curadoria diária
-GitHub Actions executa scripts/collect.mjs às 10h UTC (7h America/Recife). A execução pode atrasar na fila do GitHub. O push atualiza o Cloudflare conectado.
-A busca consulta índices RSS públicos para Valor, O Globo, Poder360, Diário de Pernambuco, JC e Folha de Pernambuco. Não acessa assinaturas nem republica artigos integrais.
-Falhas parciais são registradas em collectionLog; falha total preserva o acervo e falha o workflow.
-Não há integração com favoritos das contas nos jornais. A curadoria inicial foi importada das listas locais.
-A coleta é descoberta de manchetes; síntese analítica por IA e leitura integral ainda não estão implementadas.
+## Edição e visualização
+Visual de jornal, com manchete, colunas e editorias. Botões Jornal e Lista de leitura alternam a apresentação e preservam a escolha no navegador.
 
-## Uso local
-Node 22+. Servir a pasta public com um servidor HTTP.
-node scripts/check.mjs
-node scripts/collect.mjs
+## Radar internacional
+Busca diária em 6 veículos brasileiros e Reuters, Financial Times, BBC, The Economist, FMI, Federal Reserve e BCE. Usa manchetes indexadas publicamente. Não lê contas de assinantes nem republica artigos completos. Originais em inglês são identificados.
+Os canais para o Brasil são hipóteses automáticas de leitura a partir de palavras da manchete, não resumos ou conclusões sobre a reportagem.
 
-## Dados
-Registros sem título original têm título reconstruído da URL. Datas do acervo podem ser inferidas da URL; sem data identificável, permanecem vazias.
-Favoritos e notas pessoais ficam no localStorage do visitante, com exportação JSON. Não são públicos nem sincronizados.
-Sem formulário público de edição, credenciais ou autenticação.
+## Avaliações e personalização
+Escala 0 (Fora do radar), 1 (Baixa), 2 (Média), 3 (Alta), 4 (Essencial). Cada nota pode ser revista na editoria Avaliadas.
+O ranking combina atualidade e afinidade com avaliações de temas, canais, fontes, região e palavras. Há suavização para não extrapolar uma única nota e diversidade por fonte e assuntos internacionais. Uma parte da seleção continua exploratória.
+Avaliações são armazenadas localmente sob oe-feedback-v1; não são enviadas ao servidor. Não há treinamento de um modelo de IA. A coleta obtém candidatos amplos e o navegador reordena as notícias novas segundo as preferências locais.
+Exportação/importação JSON permite levar as avaliações a outro dispositivo ou compartilhá-las com o assistente. Favoritos e notas anteriores foram preservados.
+
+## Coleta
+GitHub Actions executa scripts/collect.mjs às 10h UTC (7h de Pernambuco). A fila do GitHub pode atrasar a execução. O commit de dados dispara nova publicação no Cloudflare.
+Falhas parciais ficam em collectionLog; falha total preserva o acervo e falha o workflow. Fontes institucionais usam janela de 14 dias; imprensa internacional, 7; imprensa brasileira, 3. Máximo de 24 referências novas por fonte e execução.
+
+## Publicação e validação
+Cloudflare Pages: branch main, sem framework, sem build, pasta de saída public.
+Node 22+: node scripts/check.mjs e node scripts/collect.mjs.
