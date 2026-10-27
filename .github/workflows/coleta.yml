@@ -1,7 +1,7 @@
 name: Curadoria diária - 7h Pernambuco
 on:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '0,17,47 10 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -14,14 +14,24 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Verificar se a coleta de hoje já foi concluída
+        id: freshness
+        env:
+          COLLECTION_EVENT: ${{ github.event_name }}
+        run: node scripts/collection-needed.mjs >> "$GITHUB_OUTPUT"
       - name: Buscar referências públicas
+        if: steps.freshness.outputs.needed == 'true'
         run: node scripts/collect.mjs
       - name: Validar acervo
+        if: steps.freshness.outputs.needed == 'true'
         run: node scripts/check.mjs
       - name: Publicar atualização
+        if: steps.freshness.outputs.needed == 'true'
         run: |
           git config user.name "Observatório Econômico"
           git config user.email "actions@users.noreply.github.com"
