@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 const source=await readFile(new URL('../public/sync.js',import.meta.url),'utf8');
 const elements=new Map(),storage=new Map(),cloud=new Map();let authenticated=true;
-const ctx={console,crypto,Date,JSON,Object,Array,String,Number,RegExp,Promise,setTimeout,setInterval:()=>0,
+const ctx={console,crypto,Date,JSON,Object,Array,String,Number,RegExp,Promise,URLSearchParams,setTimeout,setInterval:()=>0,
  localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},
  window:{addEventListener(){}},document:{visibilityState:'visible'},location:{reload(){}},
  $:s=>{if(!elements.has(s))elements.set(s,{hidden:false,textContent:'',innerHTML:''});return elements.get(s)},
@@ -37,3 +37,4 @@ authenticated=true;runInNewContext('startSync()',ctx);await flush();
 assert.equal(cloud.get('saved:a').value,true);
 assert.ok(JSON.parse(storage.get('oe-sync-v1')).conflicts['rating:a']);
 console.log('PASS: browser outbox, automatic upload, two-device conflict preserves both versions, disconnected retry.');
+
