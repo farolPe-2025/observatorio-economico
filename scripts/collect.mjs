@@ -1,3 +1,4 @@
+import {mergeManualReferences} from './manual-references.mjs';
 import fs from 'node:fs/promises';
 import crypto from 'node:crypto';
 const file=new URL('../public/data.json',import.meta.url);
@@ -35,6 +36,8 @@ const fold=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerC
 const decode=s=>s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&apos;|&#39;/g,"'").replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(Number(n))).replace(/&amp;/g,'&');
 const text=(xml,tag)=>decode(xml.match(new RegExp('<'+tag+'(?:\\s[^>]*)?>([\\s\\S]*?)</'+tag+'>','i'))?.[1]||'').trim();
 const key=i=>i.source+'|'+fold(i.title).replace(/[^\p{L}\p{N}]/gu,'');
+const manual=JSON.parse(await fs.readFile(new URL('../data/manual-references.json',import.meta.url),'utf8'));
+const manualResult=mergeManualReferences(data,manual);
 const seen=new Set(data.items.map(key));let added=0,log=[];
 async function collect(source){
  const query='site:'+source.domain+' '+source.query+' when:'+source.days+'d';
@@ -54,4 +57,4 @@ for(let i=0;i<sources.length;i+=4)await Promise.all(sources.slice(i,i+4).map(col
 if(!log.some(l=>l.status==='ok'))throw Error('Todas as fontes falharam; acervo preservado. '+JSON.stringify(log));
 data.lastCollection=new Date().toISOString();data.generatedAt=data.lastCollection;data.collectionStatus=log.some(l=>l.status==='error')?'partial':'ok';data.collectionLog=log;data.collectorVersion=2;
 await fs.writeFile(file,JSON.stringify(data,null,2)+'\n');
-console.log(JSON.stringify({added,total:data.items.length,international:data.items.filter(i=>i.scope==='international').length,status:data.collectionStatus,sources:log},null,2));
+console.log(JSON.stringify({added,manualAdded:manualResult.added,total:data.items.length,international:data.items.filter(i=>i.scope==='international').length,status:data.collectionStatus,sources:log},null,2));
