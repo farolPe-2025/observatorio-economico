@@ -28,6 +28,7 @@ async function runSync(){
  if(syncBusy||!syncOnline)return;syncBusy=true;
  try{
  syncStatus('Salvando…');
+ do {
  while(Object.keys(syncMeta.pending).length){
   const ops=Object.values(syncMeta.pending).slice(0,50),answer=await api('state',{ops});
   for(const r of answer.results){
@@ -43,6 +44,7 @@ async function runSync(){
   syncStore();
  }
  const state=await api('state');receiveEntries(state.entries);
+ } while(Object.keys(syncMeta.pending).length);
  syncStatus(Object.keys(syncMeta.conflicts).length?'Revisão necessária · versões preservadas':!syncMeta.migrated?'Conectado · recupere suas avaliações anteriores':'Sincronizado · '+new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}));
  }catch(e){syncStatus('Pendente · '+e.message)}finally{syncBusy=false}
 }
