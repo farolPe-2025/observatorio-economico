@@ -43,7 +43,7 @@ async function runSync(){
   syncStore();
  }
  const state=await api('state');receiveEntries(state.entries);
- syncStatus(Object.keys(syncMeta.conflicts).length?'Revisão necessária · versões preservadas':'Sincronizado · '+new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}));
+ syncStatus(Object.keys(syncMeta.conflicts).length?'Revisão necessária · versões preservadas':!syncMeta.migrated?'Conectado · recupere suas avaliações anteriores':'Sincronizado · '+new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}));
  }catch(e){syncStatus('Pendente · '+e.message)}finally{syncBusy=false}
 }
 async function startSync(){
@@ -55,6 +55,7 @@ async function startSync(){
   if(!syncMeta.migrated&&!localStorage.getItem('oe-local-backup-v1')){
    persist('oe-local-backup-v1',{ratings,saved,notes});
   }
+  const backup=JSON.parse(localStorage.getItem('oe-local-backup-v1')||'{}');if(!Object.keys(backup.ratings||{}).length&&!Object.values(backup.saved||{}).some(Boolean)&&!Object.values(backup.notes||{}).some(Boolean)){syncMeta.migrated=true;syncStore()}
   receiveEntries(state.entries);await runSync();
  }catch(e){syncStatus(e.message)}
 }
@@ -82,6 +83,6 @@ $('#syncConflicts').onclick=e=>{
 };
 window.addEventListener('online',()=>syncOnline?runSync():startSync());
 window.addEventListener('focus',()=>syncOnline?runSync():startSync());
-window.addEventListener('storage',e=>{if(e.key==='oe-sync-v1')location.reload()});
+window.addEventListener('storage',e=>{if(e.key==='oe-sync-v1')toast('Outra aba alterou seu caderno. Salve sua anotação e recarregue para atualizar a cópia local.')});
 setInterval(()=>{if(syncOnline&&document.visibilityState==='visible')void runSync()},60000);
 void startSync();
