@@ -1,0 +1,202 @@
+[
+  {
+    "date": "2026-10-27",
+    "page": "A4",
+    "title": "‘Novo’ PIB pode nascer desatualizado, alertam especialistas",
+    "topics": [
+      "Atividade econômica",
+      "Estatísticas econômicas"
+    ],
+    "summary": "Especialistas apontam riscos de atualizar a base das Contas Nacionais sem pesquisas estruturais recentes."
+  },
+  {
+    "date": "2026-10-27",
+    "page": "A4",
+    "title": "IBGE promete atualização metodológica nos próximos meses",
+    "topics": [
+      "Atividade econômica",
+      "Estatísticas econômicas"
+    ],
+    "summary": "O instituto anuncia mudanças metodológicas e a incorporação de novas referências às Contas Nacionais."
+  },
+  {
+    "date": "2026-10-27",
+    "page": "A4",
+    "title": "Receita cresce mais no Piauí e Espírito Santo",
+    "topics": [
+      "Fiscal e tributação",
+      "Finanças estaduais"
+    ],
+    "summary": "Comparação das receitas estaduais e de seus diferentes ritmos de crescimento."
+  },
+  {
+    "date": "2026-10-27",
+    "page": "A4",
+    "title": "É cedo para avaliar impacto do dólar, diz BC",
+    "topics": [
+      "Juros e inflação",
+      "Comércio exterior"
+    ],
+    "summary": "Reportagem registra a avaliação do Banco Central sobre os efeitos da oscilação cambial nas contas externas."
+  },
+  {
+    "date": "2026-10-27",
+    "page": "A4",
+    "title": "Gasto com juro sobe 7,4% este ano, diz Fecomercio",
+    "topics": [
+      "Juros e inflação",
+      "Crédito e consumo"
+    ],
+    "summary": "Levantamento aborda o peso dos juros no orçamento das famílias e suas implicações para o consumo."
+  },
+  {
+    "date": "2026-10-27",
+    "page": null,
+    "title": "Reeleição, boa hora para ajustar o programa industrial",
+    "author": "Pedro Cafardo",
+    "format": "opinião",
+    "topics": [
+      "Indústria e investimentos",
+      "Política industrial"
+    ],
+    "summary": "Coluna discute a continuidade da Nova Indústria Brasil e sua coordenação com o ambiente macroeconômico."
+  },
+  {
+    "date": "2026-10-27",
+    "page": null,
+    "title": "Política do clima tem Congresso como desafio, dizem entidades",
+    "topics": [
+      "Energia e clima",
+      "Instituições e políticas públicas"
+    ],
+    "summary": "Entidades discutem articulação política e implementação da agenda climática no próximo governo."
+  },
+  {
+    "date": "2026-10-23",
+    "page": "A21",
+    "title": "Ensino superior e mercado de trabalho",
+    "author": "Naercio Menezes Filho",
+    "format": "opinião",
+    "topics": [
+      "Educação e desenvolvimento",
+      "Emprego e renda"
+    ],
+    "summary": "Artigo relaciona a expansão do ensino superior, a inserção ocupacional e os diferenciais salariais dos graduados."
+  },
+  {
+    "date": "2026-10-23",
+    "page": "A21",
+    "title": "O massacre da motosserra argentina",
+    "author": "Jeremy Adelman",
+    "format": "opinião",
+    "scope": "international",
+    "region": "Mundo",
+    "topics": [
+      "Atividade econômica",
+      "Fiscal e tributação",
+      "Economia internacional"
+    ],
+    "summary": "Artigo de opinião examina os resultados e os custos das políticas econômicas de Javier Milei na Argentina."
+  },
+  {
+    "date": "2026-10-23",
+    "page": "A18",
+    "title": "Formalização trazida pelo Pix ajuda a elevar receita com impostos",
+    "topics": [
+      "Fiscal e tributação",
+      "Produtividade e formalização"
+    ],
+    "summary": "Reportagem apresenta pesquisa que associa o Pix à formalização de negócios e ao aumento da arrecadação."
+  },
+  {
+    "date": "2026-10-23",
+    "page": "A18",
+    "title": "Arrecadação tem nova alta, mas analistas veem perda de força",
+    "topics": [
+      "Fiscal e tributação"
+    ],
+    "summary": "A alta da arrecadação federal é examinada à luz de receitas extraordinárias e da perspectiva para os meses seguintes."
+  },
+  {
+    "date": "2026-10-23",
+    "page": "A16",
+    "title": "Eleição muda pouco o cenário econômico de 2027, diz Pine",
+    "topics": [
+      "Atividade econômica",
+      "Juros e inflação"
+    ],
+    "summary": "Entrevista aborda as perspectivas de atividade, juros e consumo das famílias para 2027."
+  },
+  {
+    "date": "2026-10-23",
+    "page": "A16",
+    "title": "Não há como escapar de ajuste fiscal, dizem Mailson e Appy",
+    "topics": [
+      "Fiscal e tributação"
+    ],
+    "summary": "Economistas discutem a necessidade de ajuste fiscal e as restrições à política econômica no próximo governo."
+  },
+  {
+    "date": "2026-10-23",
+    "page": "A16",
+    "title": "CNI detecta insatisfação de empresários",
+    "topics": [
+      "Indústria e investimentos",
+      "Atividade econômica"
+    ],
+    "summary": "Sondagem industrial trata das condições financeiras, da confiança e das dificuldades apontadas pelas empresas."
+  },
+  {
+    "date": "2026-10-22",
+    "page": "B8",
+    "title": "Renegociação de dívidas do campo deverá pressionar presidente eleito",
+    "topics": [
+      "Agropecuária",
+      "Crédito e consumo",
+      "Fiscal e tributação"
+    ],
+    "summary": "Entidades de produtores discutem novas medidas para o endividamento rural e possíveis fontes de financiamento."
+  },
+  {
+    "date": "2026-10-22",
+    "page": "B8",
+    "title": "Em 26 anos, houve 274 normas para repactuação",
+    "topics": [
+      "Agropecuária",
+      "Crédito e consumo",
+      "Instituições e políticas públicas"
+    ],
+    "summary": "Levantamento reúne normas de renegociação do crédito rural e evidencia a recorrência de intervenções no setor."
+  },
+  {
+    "date": "2026-10-22",
+    "page": "B8",
+    "title": "Emaranhado de leis indica dificuldades para resolver a questão",
+    "topics": [
+      "Agropecuária",
+      "Crédito e consumo",
+      "Instituições e políticas públicas"
+    ],
+    "summary": "A sucessão de medidas para dívidas rurais é discutida sob a perspectiva da coordenação e da eficácia das políticas públicas."
+  },
+  {
+    "date": "2026-10-22",
+    "page": "A2",
+    "title": "O risco de uma sociedade civil capturada",
+    "author": "Eduardo Belo",
+    "format": "opinião",
+    "topics": [
+      "Instituições e políticas públicas"
+    ],
+    "summary": "Coluna discute a autonomia de organizações da sociedade civil e suas relações com o financiamento e a atuação do Estado."
+  },
+  {
+    "date": "2026-10-22",
+    "page": "A2",
+    "title": "Redução no desmate diminui emissão de gases-estufa em 6%",
+    "topics": [
+      "Energia e clima"
+    ],
+    "summary": "Reportagem relaciona a queda das emissões brasileiras à redução do desmatamento, com base em levantamento do SEEG."
+  }
+]
