@@ -1,1 +1,15 @@
-{"name":"observatorio-economico","compatibility_date":"2026-10-26","assets":{"directory":"./public"}}
+{
+  "name": "observatorio-economico",
+  "compatibility_date": "2026-10-26",
+  "pages_build_output_dir": "./public",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "observatorio-editor",
+      "database_id": "359eb704-fedf-4026-a3ec-2203861a852a"
+    }
+  ],
+  "vars": {
+    "EDITOR_GITHUB_ID": "311066321"
+  }
+}

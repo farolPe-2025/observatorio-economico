@@ -22,3 +22,8 @@ Falhas parciais ficam em collectionLog; falha total preserva o acervo e falha o 
 ## Publicação e validação
 Cloudflare Pages: branch main, sem framework, sem build, pasta de saída public.
 Node 22+: node scripts/check.mjs e node scripts/collect.mjs.
+
+
+## Sincronização do editor
+
+Consulte [SINCRONIZACAO.md](SINCRONIZACAO.md) para ativar o banco e a entrada GitHub. A sincronização requer a configuração de produção; sem ela, os dados continuam locais. O jornal permanece público.
