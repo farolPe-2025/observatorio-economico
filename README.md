@@ -29,3 +29,5 @@ Node 22+: node scripts/check.mjs e node scripts/collect.mjs.
 Consulte [SINCRONIZACAO.md](SINCRONIZACAO.md) para ativar o banco e a entrada GitHub. A sincronização requer a configuração de produção; sem ela, os dados continuam locais. O jornal permanece público.
 
 Configuração das credenciais de produção salva em 27/10/2026. Esta revisão reaplica a implantação para carregar os secrets do editor.
+
+Reimplantação solicitada após a atualização do secret OAuth em 27/10/2026.
