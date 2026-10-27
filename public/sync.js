@@ -57,7 +57,11 @@ async function startSync(){
   }
   const backup=JSON.parse(localStorage.getItem('oe-local-backup-v1')||'{}');if(!Object.keys(backup.ratings||{}).length&&!Object.values(backup.saved||{}).some(Boolean)&&!Object.values(backup.notes||{}).some(Boolean)){syncMeta.migrated=true;syncStore()}
   receiveEntries(state.entries);await runSync();
- }catch(e){syncStatus(e.message)}
+ }catch(e){
+  const query=new URLSearchParams(location.search||'');
+  const messages={expired:'A entrada expirou. Clique em Entrar como editor para tentar novamente.',state:'A entrada foi reiniciada em outra aba. Tente novamente.',cancelled:'Autorização cancelada. Entre como editor para tentar novamente.',incorrect_client_credentials:'O GitHub recusou as credenciais do editor. Confira o Client secret na Cloudflare.',redirect_uri_mismatch:'O endereço de retorno do aplicativo no GitHub precisa ser corrigido.',bad_verification_code:'O código de entrada expirou. Tente entrar novamente.',code_verifier_incorrect:'A verificação da entrada falhou. Tente novamente.'};
+  syncStatus(query.get('editor')==='login-error'?(messages[query.get('reason')]||'A entrada não foi concluída. Tente novamente.'):e.message);
+ }
 }
 $('#syncNow').onclick=()=>runSync();
 $('#syncLogout').onclick=async()=>{try{await api('logout',{});syncOnline=false;syncStatus('Desconectado · cópia local preservada')}catch(e){toast(e.message)}};
