@@ -3,4 +3,4 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'
 /data.json
-  Cache-Control: public, max-age=300
+  Cache-Control: no-cache
