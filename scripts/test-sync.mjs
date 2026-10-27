@@ -33,6 +33,7 @@ assert.equal((await req('state',{body:{ops:[{kind:'rating',id:'bad',baseRev:0,op
 let state=await (await req('state')).json();assert.equal(state.entries.length,3);
 const login=await req('login');assert.equal(login.status,302);
 let authorize=new URL(login.headers.get('Location'));assert.equal(authorize.hostname,'github.com');assert.equal(authorize.searchParams.get('scope'),'');assert.equal(authorize.searchParams.get('code_challenge_method'),'S256');
-const callback=await req('callback');assert.equal(callback.headers.get('Location'),'/?editor=login-error');
+const callback=await req('callback');assert.equal(callback.headers.get('Location'),'/?editor=login-error&reason=expired');
 assert.equal((await req('logout',{body:{}})).status,200);assert.equal((await req('state')).status,401);
 console.log('PASS: auth, CSRF, validation, identity-only OAuth/PKCE, two-device conflict, idempotent retry, deletion tombstone, private notes, logout.');
+
