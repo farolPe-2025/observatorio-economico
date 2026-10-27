@@ -53,4 +53,39 @@ $('#export').onclick=()=>download('minhas-leituras.json',{exportedAt:new Date().
 $('#exportFeedback').onclick=()=>download('meu-radar-economico.json',{version:1,exportedAt:new Date().toISOString(),ratings:Object.values(ratings)});
 $('#importFeedback').onchange=async e=>{let file=e.target.files[0];if(!file)return;try{if(file.size>5000000)throw Error('Arquivo muito grande.');let incoming=JSON.parse(await file.text());if(incoming.version!==1||!Array.isArray(incoming.ratings))throw Error('Formato de avaliações não reconhecido.');let n=0;for(const r of incoming.ratings){if(typeof r.id!=='string'||!/^[a-zA-Z0-9_-]{1,100}$/.test(r.id)||!Number.isInteger(r.value)||r.value<0||r.value>4||!Array.isArray(r.features))continue;ratings[r.id]={id:r.id,value:r.value,title:String(r.title||'').slice(0,800),source:String(r.source||'').slice(0,100),topics:Array.isArray(r.topics)?r.topics.filter(t=>typeof t==='string').slice(0,20):[],features:r.features.filter(t=>typeof t==='string').map(t=>t.slice(0,200)).slice(0,100),ratedAt:r.ratedAt||new Date().toISOString()};queueSync('rating',r.id);n++}if(!persist('oe-feedback-v1',ratings))throw Error('Não foi possível salvar neste navegador.');render();toast(n+' avaliações importadas.')}catch(error){toast(error.message)}e.target.value=''};
 $('#today').textContent=new Date().toLocaleDateString('pt-BR',{timeZone:'America/Recife',weekday:'short',day:'2-digit',month:'long',year:'numeric'}).toUpperCase();
-(async()=>{try{let response=await fetch('data.json',{cache:'no-store'});if(!response.ok)throw Error('Acervo indisponível');data=await response.json();items=data.items.map(i=>({...i,topics:Array.isArray(i.topics)?i.topics:[]}));$('#total').textContent=items.length;$('#vehicles').textContent=new Set(items.map(i=>i.source)).size;$('#peTotal').textContent=items.filter(i=>i.region==='Pernambuco').length;$('#worldCount').textContent=items.filter(world).length;for(let [id,values] of [['topic',items.flatMap(i=>i.topics)],['source',items.map(i=>i.source)]]){[...new Set(values)].sort((a,b)=>a.localeCompare(b,'pt-BR')).forEach(v=>{let o=document.createElement('option');o.value=v;o.textContent=v;$('#'+id).append(o)})}let last=data.lastCollection?new Date(data.lastCollection).toLocaleString('pt-BR',{timeZone:'America/Recife'}):'acervo inicial';$('#update').textContent='ÚLTIMA COLETA · '+last;$('#collectionNote').textContent='Última coleta: '+last+'. Situação: '+(data.collectionStatus==='partial'?'algumas fontes falharam; acervo preservado':data.lastCollection?'concluída':'ainda não realizada')+'.';render()}catch(error){$('#results').innerHTML='<div class="empty"><h3>A edição não carregou.</h3><p>Recarregue a página para tentar novamente.</p></div>';$('#update').textContent='ACERVO INDISPONÍVEL'}})();
+let editionLoading=false;
+const editionDay=d=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/Recife',year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
+function collectionHealth(){
+ const last=data?.lastCollection?new Date(data.lastCollection):null;
+ const valid=last&&Number.isFinite(last.getTime()),today=valid&&editionDay(last)===editionDay(new Date());
+ const label=valid?last.toLocaleString('pt-BR',{timeZone:'America/Recife'}):'ainda não realizada';
+ const partial=data?.collectionStatus==='partial';
+ $('#update').textContent=(today?'ÚLTIMA COLETA · ':'COLETA DE HOJE PENDENTE · ')+label;
+ $('#editionFreshness').textContent=today?'Coleta de hoje · '+label+(partial?' · algumas fontes falharam':' · concluída'):'A coleta de hoje ainda não consta no acervo. Última: '+label+'.';
+ $('#editionHealth').classList.toggle('pending',!today||partial);
+ $('#collectionNote').textContent='Última coleta: '+label+'. Situação: '+(today?(partial?'parcial; acervo preservado':'concluída'):'aguardando atualização de hoje')+'. Tentativas programadas às 7h, 7h17 e 7h47 (Recife), sujeitas à fila do GitHub. Esta página verifica novas edições a cada cinco minutos e ao voltar à aba.';
+}
+async function refreshEdition(notify=false){
+ if(editionLoading)return;editionLoading=true;$('#refreshEdition').disabled=true;
+ try{
+  const response=await fetch('data.json',{cache:'no-store'});if(!response.ok)throw Error('Acervo indisponível');
+  const next=await response.json();if(!Array.isArray(next.items))throw Error('Acervo inválido');data=next;
+  items=data.items.map(i=>({...i,topics:Array.isArray(i.topics)?i.topics:[]}));
+  $('#total').textContent=items.length;$('#vehicles').textContent=new Set(items.map(i=>i.source)).size;
+  $('#peTotal').textContent=items.filter(i=>i.region==='Pernambuco').length;$('#worldCount').textContent=items.filter(world).length;
+  for(const [id,values] of [['topic',items.flatMap(i=>i.topics)],['source',items.map(i=>i.source)]]){
+   const select=$('#'+id),selected=select.value;select.replaceChildren(select.options[0]);
+   for(const value of [...new Set(values)].sort((a,b)=>a.localeCompare(b,'pt-BR'))){const option=document.createElement('option');option.value=value;option.textContent=value;select.append(option)}
+   if([...select.options].some(o=>o.value===selected))select.value=selected;
+  }
+  collectionHealth();render();if(notify)toast('Edição atualizada. Suas avaliações e filtros foram preservados.');
+ }catch(error){
+  if(!data){$('#results').innerHTML='<div class="empty"><h3>A edição não carregou.</h3><p>Recarregue a página para tentar novamente.</p></div>';$('#update').textContent='ACERVO INDISPONÍVEL'}
+  $('#editionFreshness').textContent='Não foi possível verificar uma nova edição. Tente Atualizar edição.';$('#editionHealth').classList.add('pending');
+  if(notify)toast('Falha ao atualizar. O acervo e suas avaliações foram preservados.');
+ }finally{editionLoading=false;$('#refreshEdition').disabled=false}
+}
+$('#refreshEdition').onclick=()=>refreshEdition(true);
+window.addEventListener('focus',()=>{if(document.visibilityState==='visible')void refreshEdition()});
+setInterval(()=>{if(document.visibilityState==='visible')void refreshEdition()},5*60000);
+void refreshEdition();
