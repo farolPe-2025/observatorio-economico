@@ -25,13 +25,19 @@ export async function onRequest({request,env,params}){
  if(path==='login'&&request.method==='GET'){
   const state=random(),verifier=random(),target=new URL('https://github.com/login/oauth/authorize');
   for(const [k,v] of Object.entries({client_id:env.GITHUB_CLIENT_ID,redirect_uri:ORIGIN+'/api/editor/callback',scope:'',state,code_challenge:await hash(verifier),code_challenge_method:'S256',allow_signup:'false',login:'farolPe-2025'}))target.searchParams.set(k,v);
-  return new Response(null,{status:302,headers:{Location:target.href,'Cache-Control':'no-store','Set-Cookie':cookie('__Host-oe-oauth',state+'.'+verifier,600)}});
+  return new Response(null,{status:302,headers:{Location:target.href,'Cache-Control':'no-store','Set-Cookie':cookie('__Host-oe-oauth',state+'.'+verifier,1800)}});
  }
  if(path==='callback'&&request.method==='GET'){
   const [state,verifier]=(cookies(request)['__Host-oe-oauth']||'').split('.');
-  if(!state||!verifier||state!==url.searchParams.get('state')||!url.searchParams.get('code'))return redirect('/?editor=login-error');
+  if(!state||!verifier)return redirect('/?editor=login-error&reason=expired');
+  if(state!==url.searchParams.get('state'))return redirect('/?editor=login-error&reason=state');
+  if(!url.searchParams.get('code'))return redirect('/?editor=login-error&reason=cancelled');
   const response=await fetch('https://github.com/login/oauth/access_token',{method:'POST',headers:{Accept:'application/json','Content-Type':'application/json'},body:JSON.stringify({client_id:env.GITHUB_CLIENT_ID,client_secret:env.GITHUB_CLIENT_SECRET,code:url.searchParams.get('code'),code_verifier:verifier,redirect_uri:ORIGIN+'/api/editor/callback'})});
-  const token=await response.json();if(!token.access_token)return redirect('/?editor=login-error');
+  const token=await response.json();if(!token.access_token){
+   const reason=['incorrect_client_credentials','redirect_uri_mismatch','bad_verification_code','code_verifier_incorrect'].includes(token.error)?token.error:'provider';
+   console.warn('OAuth token exchange failed:',reason,response.status);
+   return redirect('/?editor=login-error&reason='+reason);
+  }
   const ir=await fetch('https://api.github.com/user',{headers:{Authorization:'Bearer '+token.access_token,Accept:'application/vnd.github+json','User-Agent':'Observatorio-Economico'}});
   const identity=await ir.json();
   // Token is discarded after identity verification; repository scopes are never requested.
