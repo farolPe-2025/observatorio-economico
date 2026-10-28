@@ -8,16 +8,16 @@ function localValue(kind,id){return kind==='rating'?(ratings[id]||null):kind==='
 function setLocal(kind,id,value){if(kind==='rating'){if(value===null)delete ratings[id];else ratings[id]=value}else if(kind==='saved')saved[id]=!!value;else notes[id]=value||''}
 function saveLocalState(){persist('oe-feedback-v1',ratings);persist('oe-saved',saved);persist('oe-notes',notes)}
 function syncStatus(message){$('#syncStatus').textContent=message;$('#syncLogin').hidden=syncOnline||!syncReady;$('#syncLogout').hidden=!syncOnline;$('#syncNow').hidden=!syncOnline;$('#migrateLocal').hidden=!syncOnline||syncMeta.migrated;renderConflicts()}
-function renderConflicts(){const entries=Object.entries(syncMeta.conflicts);$('#syncConflicts').hidden=!entries.length;$('#syncConflicts').innerHTML=entries.length?'<h4>Revisar alterações em outros dispositivos</h4><p>As duas versões foram preservadas. Escolha qual usar.</p>'+entries.map(([key,c])=>{let i=items.find(i=>i.id===c.id),label=c.kind==='rating'?'Avaliação':c.kind==='saved'?'Favorito':'Anotação';let show=v=>c.kind==='rating'?(v===null?'Sem avaliação':labels[v.value]):c.kind==='saved'?(v?'Guardada':'Não guardada'):String(v||'(vazia)');return '<div class="sync-conflict"><b>'+esc(label+' · '+(i?.title||c.id))+'</b><p>Neste dispositivo: '+esc(show(c.local))+'</p><p>Na nuvem: '+esc(show(c.remote))+'</p><button data-conflict="'+esc(key)+'" data-choice="local">Usar deste dispositivo</button><button data-conflict="'+esc(key)+'" data-choice="remote">Usar da nuvem</button></div>'}).join(''):''}
+function renderConflicts(){const entries=Object.entries(syncMeta.conflicts);$('#syncConflicts').hidden=!entries.length;$('#syncConflicts').innerHTML=entries.length?'<h4>Review changes from other devices</h4><p>Both versions were preserved. Choose which one to keep.</p>'+entries.map(([key,c])=>{let i=items.find(i=>i.id===c.id),label=c.kind==='rating'?'Avaliação':c.kind==='saved'?'Favorito':'Anotação';let show=v=>c.kind==='rating'?(v===null?'Sem avaliação':labels[v.value]):c.kind==='saved'?(v?'Guardada':'Não guardada'):String(v||'(vazia)');return '<div class="sync-conflict"><b>'+esc(label+' · '+(i?.title||c.id))+'</b><p>On this device: '+esc(show(c.local))+'</p><p>In the cloud: '+esc(show(c.remote))+'</p><button data-conflict="'+esc(key)+'" data-choice="local">Use this device’s version</button><button data-conflict="'+esc(key)+'" data-choice="remote">Use cloud version</button></div>'}).join(''):''}
 function queueSync(kind,id){
  const key=syncKey(kind,id),existing=syncMeta.pending[key];
  syncMeta.pending[key]={kind,id,value:localValue(kind,id),baseRev:existing?.baseRev??syncMeta.revisions[key]??0,opId:crypto.randomUUID()};
  delete syncMeta.conflicts[key];
  if(!syncStore()){toast('Não foi possível guardar a fila. Exporte uma cópia antes de fechar esta página.');return}
- syncStatus(syncOnline?'Salvando…':'Pendente · salvo neste dispositivo');
+ syncStatus(syncOnline?'Saving…':'Pending · salvo neste dispositivo');
  if(syncOnline)void runSync();
 }
-async function api(path,body){let r=await fetch('/api/editor/'+path,{method:body?'POST':'GET',credentials:'same-origin',cache:'no-store',headers:body?{'Content-Type':'application/json','X-OE-Editor':'1'}:{},body:body?JSON.stringify(body):undefined});if(r.status===401){syncOnline=false;throw Error('Entre como editor para sincronizar.')}let b;try{b=await r.json()}catch{throw Error('Sincronização indisponível.')}if(!r.ok)throw Error(b.error||'Falha na sincronização.');return b}
+async function api(path,body){let r=await fetch('/api/editor/'+path,{method:body?'POST':'GET',credentials:'same-origin',cache:'no-store',headers:body?{'Content-Type':'application/json','X-OE-Editor':'1'}:{},body:body?JSON.stringify(body):undefined});if(r.status===401){syncOnline=false;throw Error('Sign in as editor to sync.')}let b;try{b=await r.json()}catch{throw Error('Sincronização indisponível.')}if(!r.ok)throw Error(b.error||'Falha na sincronização.');return b}
 function receiveEntries(entries){
  for(const r of entries){const key=syncKey(r.kind,r.id);syncMeta.revisions[key]=r.revision;
  if(!syncMeta.pending[key]&&!syncMeta.conflicts[key])setLocal(r.kind,r.id,r.value);
@@ -27,7 +27,7 @@ function receiveEntries(entries){
 async function runSync(){
  if(syncBusy||!syncOnline)return;syncBusy=true;
  try{
- syncStatus('Salvando…');
+ syncStatus('Saving…');
  do {
  while(Object.keys(syncMeta.pending).length){
   const ops=Object.values(syncMeta.pending).slice(0,50),answer=await api('state',{ops});
@@ -45,13 +45,13 @@ async function runSync(){
  }
  const state=await api('state');receiveEntries(state.entries);
  } while(Object.keys(syncMeta.pending).length);
- syncStatus(Object.keys(syncMeta.conflicts).length?'Revisão necessária · versões preservadas':!syncMeta.migrated?'Conectado · recupere suas avaliações anteriores':'Sincronizado · '+new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}));
- }catch(e){syncStatus('Pendente · '+e.message)}finally{syncBusy=false}
+ syncStatus(Object.keys(syncMeta.conflicts).length?'Review needed · both versions preserved':!syncMeta.migrated?'Connected · recover your previous ratings':'Synced · '+new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}));
+ }catch(e){syncStatus('Pending · '+e.message)}finally{syncBusy=false}
 }
 async function startSync(){
  try{
   const status=await api('status');syncReady=status.configured;
-  if(!syncReady){syncStatus('Sincronização em configuração · dados preservados neste dispositivo');return}
+  if(!syncReady){syncStatus('Sync is being configured · data is saved on this device');return}
   const state=await api('state');syncOnline=true;
   // First login: preserve the previous browser-only library for explicit migration.
   if(!syncMeta.migrated&&!localStorage.getItem('oe-local-backup-v1')){
@@ -66,7 +66,7 @@ async function startSync(){
  }
 }
 $('#syncNow').onclick=()=>runSync();
-$('#syncLogout').onclick=async()=>{try{await api('logout',{});syncOnline=false;syncStatus('Desconectado · cópia local preservada')}catch(e){toast(e.message)}};
+$('#syncLogout').onclick=async()=>{try{await api('logout',{});syncOnline=false;syncStatus('Signed out · local copy preserved')}catch(e){toast(e.message)}};
 $('#migrateLocal').onclick=()=>{
  let backup;try{backup=JSON.parse(localStorage.getItem('oe-local-backup-v1')||'null')}catch{}
  if(!backup){toast('Não há cópia anterior neste navegador. Importe o arquivo exportado no outro computador.');syncMeta.migrated=true;syncStore();return}
