@@ -99,3 +99,5 @@ $('#refreshEdition').onclick=()=>refreshEdition(true);
 window.addEventListener('focus',()=>{if(document.visibilityState==='visible')void refreshEdition()});
 setInterval(()=>{if(document.visibilityState==='visible')void refreshEdition()},5*60000);
 void refreshEdition();
+
+(function(){const button=document.getElementById('themeToggle');if(!button)return;let theme='dark';try{theme=localStorage.getItem('ew-theme')||'dark'}catch{}function apply(){const light=theme==='light';document.documentElement.dataset.theme=theme;button.innerHTML=light?'☾ <span>Dark mode</span>':'☀ <span>Light mode</span>';button.setAttribute('aria-label',light?'Switch to dark mode':'Switch to light mode');button.setAttribute('aria-pressed',String(light))}button.addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';try{localStorage.setItem('ew-theme',theme)}catch{}apply()});apply()})();
