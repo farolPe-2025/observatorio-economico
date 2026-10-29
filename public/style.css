@@ -12,3 +12,69 @@ body{background:#eeece6}.paper{max-width:1450px;background:var(--paper);padding:
 :root{--paper:#151b20;--ink:#ebe9df;--teal:#b4c9c5;--muted:#a4aea9;--line:#38444a;--pale:#202a2d;--accent:#d6ab72;color-scheme:dark}body{background:#0b1014;color:var(--ink)}.paper{background:#151b20}.masthead h1 em{color:#d3b180}.seal{color:#d7b882}.seal svg{flex:none}.masthead p{color:#abb4af}.weather-note{color:#d0d4cb}.editionbar{color:#9eaaa4}.edition-intro p,.article .summary,dialog p{color:#b3bcb5}.meta b,.eyebrow,.ticker b{color:#d3a56d}.article .meta,.scope{color:#aab8b1}.tag{background:#283430;color:#d2d9c9}.tag.world{background:#233b3c;color:#bfd4cc}.impact{color:#bdc8bf;border-color:#ae8965}.impact b{color:#d6ab72}.learning-banner{background:#202a2d}.learning-banner p b,.learning-banner>button{color:#d7b882}.learning-banner p span{color:#bdc8c0}.sync-panel #syncStatus,.edition-health{color:#b7c6bb}.sync-actions a,.sync-panel button,.edition-health button{color:#d6c39d;border-color:#64716b}.rating select{background:#202b2e;color:#ecece4}.rating .rated{color:#d6c7a9}.view-switch .active{background:#dfd5bc;color:#18211e}.editorial-art img{filter:brightness(.72) saturate(.75)}.editorial-art figcaption{color:#aebbb2}.provenance,.reason{color:#aeb8b0}dialog{background:#182126;color:#ece9de}dialog p{color:#c3c9c1}input,select,textarea{background:#192328;color:#f0eee6;border-color:#5b6b65}.preferences{background:#192226}.preference-chip{background:#2b3937;color:#e1e4d9}.preference-actions p,.preferences p{color:#bbc4bc}footer button,.readOriginal,.article-actions a,.article-actions button{color:#d9bc8b}.edition-health.pending{color:#e1b077}nav button.active{color:#e0b97e;border-color:#d0a86e}#toast{color:#f5f5ee;background:#293a35}.seal span{color:#c8d1c6}@media(max-width:760px){.masthead .seal{display:flex;justify-content:center;margin-bottom:5px}.seal span{display:none}.seal svg{width:38px;height:38px}}
 
 :root{--accent:#94bdd5;--teal:#b4d2e4;--paper:#202122;--ink:#f1f0ee;--muted:#abb4b8;--line:#484c4e;--pale:#292b2c}body{background:#18191a}.paper{background:#202122}.masthead h1 em{color:#93bdd7}.editionbar,.eyebrow,.meta b,.ticker b{color:#9ec8e0}.seal,.seal svg{color:#9ec8e0}.article-actions a,.article-actions button,.readOriginal{color:#a6cce0}.learning-banner{background:#292b2c}.coverage{font:11px/1.5 Arial,sans-serif;margin:12px 0;color:#a6cce0}.coverage summary{cursor:pointer}.coverage a,.coverage span{display:block;margin-top:8px}.editorial-art img{filter:brightness(.8) saturate(.75)}.journal .article:first-child .article-main{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);column-gap:26px;align-content:start}.journal .article:first-child .editorial-art{grid-column:2;grid-row:1 / span 6}.journal .article:first-child .article-main> :not(.editorial-art){grid-column:1}.journal .article:first-child .editorial-art img{aspect-ratio:1.3;object-fit:cover}@media(max-width:760px){.journal .article:first-child .article-main{display:block}.journal .article:first-child .editorial-art img{aspect-ratio:1.65}}
+
+
+/* Reading desk: a compact, contemporary editorial interface */
+:root{--paper:#111a20;--ink:#f1ede4;--teal:#a6c6bd;--muted:#a7b6b5;--line:#34444a;--pale:#1a282e;--accent:#e2bc83;--serif:Georgia,'Times New Roman',serif}
+body{background:#0d1519;color:var(--ink)}
+.paper{max-width:1600px;background:transparent;padding:0 5vw}
+.editionbar{padding:13px 0;color:#92a7a4;border-color:#2c3b40;font-size:10px}
+.masthead{display:flex;justify-content:flex-start;text-align:left;gap:18px;padding:17px 0;border-bottom:0}
+.masthead .seal{display:flex;color:#d4b886}
+.masthead .seal svg{width:37px;height:37px}
+.masthead .seal span,.weather-note{display:none}
+.masthead h1{font:400 clamp(28px,3.2vw,43px)/1.05 var(--serif);letter-spacing:-1.4px;margin:0;white-space:normal}
+.masthead h1 em{color:#d9bd8d}
+.masthead p{font:11px/1.4 Arial,sans-serif;font-style:normal;color:#9aa9a8;margin:5px 0 0}
+nav{justify-content:flex-start;gap:5px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 0}
+nav button{border:0;border-radius:4px;padding:9px 12px;text-transform:none;letter-spacing:0;font:12px Arial,sans-serif;color:#b5c4c1}
+nav button:hover{background:#26363b}
+nav button.active{background:#d8bc8d;color:#18211f}
+.ticker{gap:18px;border:0;padding:12px 0 4px}
+.ticker b,.eyebrow{color:#dbbb87;letter-spacing:1.4px}
+.ticker button{color:#becac8}
+.edition-health{margin:2px 0 0;padding:8px 12px;border:0;border-radius:4px;background:#1a272a;color:#b8ccc4}
+.edition-health.pending{color:#f0c88a;background:#302a21}
+.edition-health button,.sync-panel button,.sync-actions a{color:#e3c695;border:1px solid #576963;border-radius:3px;background:transparent}
+.edition-intro{padding:30px 0 13px;align-items:end}
+.edition-intro h2{font:400 clamp(31px,3vw,46px)/1.05 var(--serif);letter-spacing:-1px;margin:6px 0}
+.edition-intro p{font:13px/1.5 Arial,sans-serif;color:var(--muted)}
+.view-switch{border:1px solid #43565a;border-radius:4px;overflow:hidden}
+.view-switch button{color:#c5d2cf}
+.view-switch .active{background:#d9c39f;color:#17211e}
+.filters{background:#1a282d;padding:14px;border:1px solid #304248;border-radius:6px;gap:10px}
+.filters label span{color:#9fb4b0;font-size:10px;letter-spacing:.3px}
+input,select,textarea,.rating select{color:#f1ede4;background:#121e23;border:1px solid #42565a;border-radius:3px}
+input::placeholder,textarea::placeholder{color:#94a6a4}
+#clear{color:#e0c49a}
+.resultbar{padding:18px 0 12px;border-bottom:1px solid #425158;color:#9eafac;font-size:10px}
+#resultCount{color:#d7bb8d}
+.results.journal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding-top:16px}
+.results.journal .article,.results.list .article{background:#1a282d;border:1px solid #304248;border-radius:6px;padding:22px;min-width:0}
+.results.journal .article:first-child{grid-column:span 2;border:1px solid #415456;padding:26px;background:#203136}
+.results.journal .article:nth-child(n){border:1px solid #304248;padding:22px}
+.results.journal .article:first-child .article-main{display:block}
+.results.journal .article:first-child h3{font:400 clamp(29px,3vw,45px)/1.12 var(--serif);letter-spacing:-.8px}
+.article h3,.list .article h3{font:400 24px/1.22 var(--serif);letter-spacing:-.25px}
+.article h3 button:hover{color:#e7cda5}
+.article .meta{color:#a6b6b2}.meta b{color:#e4c18b}
+.article .summary{color:#c5ceca;font-size:14px}
+.editorial-art{margin:-22px -22px 18px}.editorial-art img{aspect-ratio:2.7;object-fit:cover;background:#24383a}.editorial-art figcaption{padding:0 10px;color:#9baea8}
+.results.journal .article:first-child .editorial-art{margin:-26px -26px 22px}.results.journal .article:first-child .editorial-art img{aspect-ratio:3.4}
+.tag,.tag.world{background:#304643;color:#d1e1d8;border-radius:2px}
+.impact{border-left:2px solid #d5b584;color:#bacbc4}.impact b{color:#e0bf8a}
+.reason,.provenance,.rating span{color:#a9bcb5}
+.article-actions a,.article-actions button{color:#e7c893}
+.rating{border-color:#415156}
+.results.list{gap:12px;padding-top:16px}.list .article .bottom{border-color:#405257}
+.more{border-color:#718982;color:#e9d2ae;border-radius:3px}
+.sync-panel{margin:34px 0 14px;padding:16px 18px;background:#1a282d;border:1px solid #304248;border-radius:5px;color:#eee}
+.sync-panel #syncStatus{color:#abc2ba}
+.learning-banner{border:1px solid #304248;border-radius:5px;background:#1a282d;padding:16px 18px}
+.learning-banner p b,.learning-banner>button{color:#dfc192}.learning-banner p span{color:#b3c4bc}
+.preferences{background:#1a282d;border:1px solid #304248}.preferences p{color:#b4c3bd}
+.preference-chip{background:#304643;color:#e3e7dd}
+.desk-bottom{margin-top:42px;border-color:#526461}.method,footer{border-color:#405257}.method p{color:#aebeb9}
+dialog{background:#19282d;color:#f1ede4;border-color:#526661}dialog p{color:#c0cec7}#toast{background:#e5d0a8;color:#15221e}
+@media(max-width:900px){.results.journal{grid-template-columns:repeat(2,minmax(0,1fr))}.results.journal .article:first-child{grid-column:span 2}.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.filters .search{grid-column:span 2}.paper{padding:0 24px}}
+@media(max-width:600px){.paper{padding:0 16px}.editionbar{font-size:8px}.masthead{display:flex;gap:12px;text-align:left;padding:17px 0}.masthead .seal{display:flex}.masthead .seal svg{width:30px}.masthead h1{font-size:29px;margin:0;letter-spacing:-1px}.masthead p{font-size:10px;line-height:1.3}.edition-intro{display:flex;flex-wrap:wrap;padding:24px 0 12px}.edition-intro h2{font-size:31px}.view-switch{margin:0}.results.journal{grid-template-columns:1fr}.results.journal .article:first-child{grid-column:auto}.results.journal .article:first-child h3{font-size:31px}.results.journal .article:nth-child(n){padding:18px}.results.journal .article:first-child .editorial-art,.editorial-art{margin:-18px -18px 17px}.results.journal .article:first-child .editorial-art img,.editorial-art img{aspect-ratio:2.3}.list .article{display:flex}.list .article .bottom{border-left:0;padding-left:0}.learning-banner p span{display:block}.ticker>span{display:none}}
