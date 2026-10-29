@@ -254,3 +254,13 @@ html[data-theme=light] .rating-scale button{background:#eef3f8;border-color:#c1c
 html[data-theme=light] .rating-scale button:hover{background:#e2edf7;border-color:#6d905b}
 html[data-theme=light] .rating-scale button[aria-pressed=true]{background:#294e70;border-color:#294e70;color:#fff}
 @media(max-width:600px){.rating-scale button{width:auto;min-height:38px;padding:9px 10px}.rating-scale{gap:5px}}
+
+
+/* Contemporary typography */
+:root{--sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;--serif:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+body,button,input,select,textarea{font-family:var(--sans)}
+.masthead h1{font-family:var(--sans);font-weight:700;letter-spacing:-1.4px}
+.edition-intro h2{font-family:var(--sans);font-weight:700;letter-spacing:-2.8px}
+.article h3,.list .article h3,.results.journal .article:first-child h3{font-family:var(--sans);font-weight:650;letter-spacing:-.7px}
+.article .summary,.desk-bottom h3,footer strong,dialog h2{font-family:var(--sans)}
+@media(max-width:600px){.edition-intro h2{letter-spacing:-2px}.masthead h1{letter-spacing:-1px}}
