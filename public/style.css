@@ -208,3 +208,35 @@ footer{grid-column:2;border-top:1px solid #394234}
 dialog{background:#1b2018;border:1px solid #596751;border-radius:0;color:#f1f4e8}dialog p{color:#c1cbb9}#toast{background:#d7ff56;color:#15190f}
 @media(max-width:900px){.paper{display:block;padding:0 26px}.editionbar{display:flex}.masthead{padding:19px 0}nav{position:static;display:flex;flex-direction:row;overflow-x:auto;border:0;border-top:1px solid #394234;border-bottom:1px solid #394234;padding:5px 0}nav:before{display:none}nav button{width:auto;flex:none;white-space:nowrap}.ticker{padding:12px 0}.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.filters .search{grid-column:span 2}}
 @media(max-width:600px){.paper{padding:0 17px}.editionbar{font-size:8px}.masthead h1{font-size:25px}.masthead p{font-size:9px}.masthead .seal{width:38px;height:38px;flex:none}.edition-intro{padding:18px 0;align-items:start;flex-direction:column}.edition-intro h2{font-size:46px}.view-switch{margin:0}.results.journal{grid-template-columns:1fr}.results.journal .article:first-child{grid-column:auto;display:flex;gap:0;padding:25px 0}.results.journal .article:nth-child(n){padding:22px 0}.results.journal .article:first-child h3{font-size:34px}.results.journal .article:first-child .bottom{border:0;padding:0;align-self:stretch}.results.list .article{display:flex}.list .article .bottom{border:0;padding:0}.rating,.list .rating{flex-direction:row}.rating-scale button{width:32px;height:32px}.learning-banner p span{display:block}}
+
+
+.theme-toggle{margin-left:auto;flex:none;display:flex;align-items:center;gap:7px;border:1px solid #586251;background:transparent;color:#e7eddf;padding:9px 12px;border-radius:3px;font:11px var(--sans)}
+.theme-toggle:hover{border-color:#d7ff56}
+html[data-theme=light]{color-scheme:light;--paper:#f6f7f1;--ink:#1d251b;--teal:#425b22;--muted:#626c5e;--line:#ced5c9;--pale:#e9eee4;--accent:#526d28}
+html[data-theme=light] body{background:#f6f7f1;color:#1d251b}
+html[data-theme=light] .editionbar,html[data-theme=light] nav,html[data-theme=light] .filter-drawer,html[data-theme=light] footer,html[data-theme=light] .method,html[data-theme=light] .desk-bottom{border-color:#cbd3c7}
+html[data-theme=light] .editionbar,html[data-theme=light] .masthead p,html[data-theme=light] nav:before,html[data-theme=light] .article .meta,html[data-theme=light] .reason,html[data-theme=light] .provenance,html[data-theme=light] .resultbar,html[data-theme=light] .edition-intro p{color:#657163}
+html[data-theme=light] nav button,html[data-theme=light] .ticker button,html[data-theme=light] .filter-drawer summary{color:#394b38}
+html[data-theme=light] nav button.active,html[data-theme=light] .view-switch .active{background:#283c25;color:#fff}
+html[data-theme=light] nav button:hover:not(.active){background:#e1e9db;color:#172517}
+html[data-theme=light] .eyebrow,html[data-theme=light] .ticker b,html[data-theme=light] .meta b,html[data-theme=light] #resultCount{color:#516f2a}
+html[data-theme=light] .ticker button,html[data-theme=light] .view-switch,html[data-theme=light] .theme-toggle{border-color:#bac8b6;color:#344a30}
+html[data-theme=light] .edition-health{background:#e5f0e0;color:#3e6038;border-color:#78994e}
+html[data-theme=light] .edition-health.pending{background:#faf0dc;color:#765522}
+html[data-theme=light] .edition-health button,html[data-theme=light] .sync-panel button,html[data-theme=light] .sync-actions a{border-color:#a5b59d;color:#314b2d}
+html[data-theme=light] .results.journal .article,html[data-theme=light] .results.journal .article:nth-child(n),html[data-theme=light] .results.list .article{border-color:#cbd3c7}
+html[data-theme=light] .results.journal .article:first-child{border-top-color:#587b31}
+html[data-theme=light] .results.journal .article:first-child .bottom,html[data-theme=light] .list .article .bottom,html[data-theme=light] .rating{border-color:#c9d2c5}
+html[data-theme=light] .article h3 button:hover,html[data-theme=light] .article-actions a,html[data-theme=light] .article-actions button,html[data-theme=light] #clear{color:#4b702d}
+html[data-theme=light] .tag,html[data-theme=light] .tag.world{color:#486342;border-color:#b4c3ad;background:transparent}
+html[data-theme=light] .impact{color:#53614e;border-color:#83a762}html[data-theme=light] .impact b{color:#507136}
+html[data-theme=light] input,html[data-theme=light] select,html[data-theme=light] textarea{background:white;border-color:#bccab7;color:#202d1d}
+html[data-theme=light] .sync-panel,html[data-theme=light] .learning-banner,html[data-theme=light] .preferences{background:#edf2e9;border-color:#cbd7c6;color:#263824}
+html[data-theme=light] .sync-panel #syncStatus,html[data-theme=light] .learning-banner p span,html[data-theme=light] .preferences p,html[data-theme=light] .method p{color:#5b6c58}
+html[data-theme=light] .learning-banner p b,html[data-theme=light] .learning-banner>button,html[data-theme=light] .rating-label{color:#547232}
+html[data-theme=light] .preference-chip{background:#dce9d6;color:#314e2d}
+html[data-theme=light] dialog{background:#f8faf5;color:#202b1c;border-color:#aebfa7}html[data-theme=light] dialog p{color:#51634d}
+html[data-theme=light] .rating-scale button{border-color:#b2c0ac;color:#354c31}
+html[data-theme=light] .rating-scale button[aria-pressed=true]{background:#334e2e;border-color:#334e2e;color:#fff}
+html[data-theme=light] .rating-label small,html[data-theme=light] .rating-clear{color:#63755e}
+@media(max-width:600px){.theme-toggle{padding:8px}.theme-toggle span{display:none}}
