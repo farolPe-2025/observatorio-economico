@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T15:34:44.480Z",
-  "lastCollection": "2026-10-31T15:34:44.480Z",
+  "generatedAt": "2026-11-01T16:32:54.731Z",
+  "lastCollection": "2026-11-01T16:32:54.731Z",
   "schedule": "07:00 · America/Recife",
   "items": [
     {
@@ -26578,6 +26578,1430 @@
       "titleVerified": true,
       "kind": "noticia",
       "discoveredAt": "2026-10-31T15:34:44.276Z"
+    },
+    {
+      "id": "1e1f6266622173c5",
+      "title": "Boulos diz ser \"chantagem\" pressão do mercado por ajuste fiscal",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONnc0Z19pME1QT2M5dER6bDB4VmxabHBrbHduQU84c3dtdlFfNnVTbldsNWN4Njd2UDNnSTZzdUhwNXFnbVNKQzI2WXdJNXZUNmdYTU54MWIwajJUNHBXQU90QjhQV0ZIdUhnVU1PN1JNR1NLcUlrbF84ZF96aDdDUUE0eTZoZVN1STVjS0p6X0J4Q2tOU0djQWpzZlRRbGhnWUFxX3E4YjI?oc=5",
+      "source": "Poder360",
+      "date": "2026-10-31",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.479Z"
+    },
+    {
+      "id": "b7557db399798ef0",
+      "title": "Afinal, a inteligência artificial está destruindo empregos?",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRFlYX0FkQWU4WVFjVXlVbC1HaHdDTkFvT21laS1jLTRaUHJKMUU3aWIxVkhCczlMbDFaNWt0bXJES3M2THhWUkVNM1hBdVFVMFVSaUdnTXRLUWNmOGVNd0FnSkJIbUY4SWFpQkpTekxZOGwtOU5Gci1PQUp1SW1mdmlyYWhHNFZDOWQ5Qmp4dFJnUnFrYWFYUkln?oc=5",
+      "source": "Poder360",
+      "date": "2026-11-01",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.481Z"
+    },
+    {
+      "id": "48287607ff9022db",
+      "title": "Dívida atrelada à Selic bate recorde histórico em 2026",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQX1dxSl9vTGN2Vi1oMlM4NElFU3RmYWtMVUpvdTRQMWhvWk5pVUlwazRWbTU1X1pMeWlUSXdPMGxycVl0SURUQzM4NVlxekFoa25BRlplMHEzV0c5b3FKcGVSTlBDSmtKaWQ3VzlBdlJTemFZRnY2b29yXzNzNHpDNDJXM1oyT1VFS21Db205M3RkSkFMdGtYdDkyYW9hZU0?oc=5",
+      "source": "Poder360",
+      "date": "2026-11-01",
+      "topics": [
+        "Juros e inflação",
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.481Z"
+    },
+    {
+      "id": "5ea7b092f87ddd16",
+      "title": "Acordo Mercosul-UE eleva exportações brasileiras em 21%",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeDRBZmF4akhjajdiSmxicllfTlpuZzVHQjlCMm40aTZld3E4clljOWd0Z3I4c09lbEpxZ19DY3J0cUdPUi1mTnZueXQ4TGMyZVJVRWhDVjJtNmhwdVhZNkk0WVFwUVptb0ZPRl9pT1hpdUZkUndhZF9BTFpDTkc2SllLUUZnNUZrb0pXVk5XTTVDVi1tQnI5QUpTV0RFMzg?oc=5",
+      "source": "Poder360",
+      "date": "2026-10-31",
+      "topics": [
+        "Comércio exterior"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.481Z"
+    },
+    {
+      "id": "0608c7fd2526d3fe",
+      "title": "Mercado de carbono brasileiro terá regras próprias para aviação",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdTFoWTBkY1kyYlVkTTBfVGllV2dPU3loSWhPNXBWR1c3MElhNENWSjBmZUNkWmhUdW5JWE9qTDZ6M0lKSlY5d1YtTVh2M3pNNzdiOWUyOEthamxfZGhJa2I4QWJCcDZ5NkZEMDFNZjQ5R1FFUWE0bDhCaUo3ZkZxMVIwSUxnUEhPZlVRdWQ5MDJuMGZKV3NkX29FNnJBOThFMEtMYkhYWmE2WHc?oc=5",
+      "source": "Poder360",
+      "date": "2026-11-01",
+      "topics": [
+        "Energia e clima"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.482Z"
+    },
+    {
+      "id": "683667453a26e89e",
+      "title": "Tabata defende Alckmin na Fazenda e admite disputar SP em 2028",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeDA1ajZlVnFyRmlGT2F3RnRzUFJJVWYteTYxMS00RTNTT0FoZjJuTzJ3dHVaZWItRUJUT1I0anU0VlRwY1A4Yk81TTJheXVVSTlCV3BzNXFMQ1MzcExySGtiQnFJbFlJby1UMzFyem9XVWxtX2xOQkFKTHcySHlSMGw4SDlKWURYWk5tcFo2YmZ0TUk5T19DY0I5QjJpWnpzbzNyVElaNkZuLUU?oc=5",
+      "source": "Poder360",
+      "date": "2026-11-01",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.483Z"
+    },
+    {
+      "id": "ad4c85dbb941b063",
+      "title": "Lula cogita ir ao Piauí convidar Fonteles para Fazenda e anima mercado",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUzdHODJ0ZlBudmE5ZDlYYmZ1NTJkamc2ZFlBWHhUR19oT3VyaVI3eUt2M0drX1Q0N0JXUHN6RXEtVEstS2tIRzhCSUhoWEFWTEhvZjVhVWxvRUJyYm5DWjVPT2NkM0hRdWRmSjN3blhfakZyNlZURmZNd2gyYUtHVFAyTDVYSTNEaUdxUnVCVGt1LWRZNEZyTGwxVVJOR054U1hKeXRRd0QtMEtzTFhUVnZMWQ?oc=5",
+      "source": "Poder360",
+      "date": "2026-10-30",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.484Z"
+    },
+    {
+      "id": "77122d4445112d5e",
+      "title": "Tarifas de serviços públicos",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12ZkhzeVNPOGFPMWxGRHl1bmtrQVZTSjVsQVpLLVIzdGVjY3RMWjdYTmhUaE16b0hvWGM4QzZhRmRRTl9EdDRoYjNleS05R09OeFkzZlpGSzJUaFBMQlB3dlE2SmpoYW5ZbHozUXJB?oc=5",
+      "source": "Poder360",
+      "date": "2026-11-01",
+      "topics": [
+        "Comércio e serviços",
+        "Comércio exterior"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.486Z"
+    },
+    {
+      "id": "d44990d583ff16e7",
+      "title": "É um momento de oportunidades, diz Sebrae sobre petróleo no Amapá",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNME5pMkV3bmgxWVotWmp3RHhJd2djM2hvTmNOMV8yYXlMcjVxWTc4M2dqQ0lmeDRidzM1X0xlejhkWk0tN2hDVUM4R2I5MXpXM042Z0ExMXU5NjltaVp0c2N0MzItT1o5OWJFWXR1dVhMQThac2JyendKZjl0SW9fdUhQcU90QUlpRU9kTVhIZmJpVjEzOExhb0h3eVpNSW96c044QWNvcEt0Q3VHWmZEbTN3?oc=5",
+      "source": "Poder360",
+      "date": "2026-11-01",
+      "topics": [
+        "Energia e clima"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.486Z"
+    },
+    {
+      "id": "30e4cc0d36581e3c",
+      "title": "Infra em 1 Minuto: El Niño pode impactar conta de luz",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQellQbEZla1FpcDNkZDlTZUlBNE8tYzdJSFh0NWlSWV9TRUR3NnFUa0g0OTJCNTl1M0NWbU0tYnBwel9tOTNzMldWZlpDM0tpQTA0RTlTbnQ3bjM1LXlDdG5vMkxmR1lMZFhsakl2ekp2Tlg5b2ZfQ1pWUzhORmpTQWlEanUwc2RadHJfQnlMbUExeU5WME1DdTlZZHlKRFRm?oc=5",
+      "source": "Poder360",
+      "date": "2026-10-31",
+      "topics": [
+        "Energia e clima"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.487Z"
+    },
+    {
+      "id": "165e049059822268",
+      "title": "Chilli Beans pede recuperação extrajudicial para renegociar dívida de R$ 340 milhões",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdjRrVllLNlVwa1JRbmxEaV9adkx0MUtRY1ByNUZaNkswLUhhbll4T2xxVnhwbkNVTDduMVVLSDY0bDNnTi04TjExNDlHaE8xaEVvcHZaVEhRYTY0NXc1N2MzTHl0aXRCSmhzdmNEMkpSNmdDSlViRTlNc0tESURsMFoyU0IxNHBhSFBFRkh3WGNFeVdpVUZjUm9WLTBJa25ndE0zdnFReVJDOXpqY1IwZm1aMVRtMk1oWGtWcnBBTXd3SVg5alo0WjFtdE9yZ2lsNFdXbUhIcjh6UXhoWFhmSEY1VW45WDVI?oc=5",
+      "source": "Diário de Pernambuco",
+      "date": "2026-10-31",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.491Z"
+    },
+    {
+      "id": "ff66d90d1fdcfc03",
+      "title": "Ação Popular pede suspensão de salário do senador Flávio Bolsonaro",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQek53eV9oQnBmSHNoY0F6MUNxR21yLW9YT0c0N191NmYxcnd6bndVb3dUSjlCZ2R1d3BVUEdCYUU1MjFqQi1GQkVsRlNBdEJ3OU1wdzljaUJwOVZDX1UtRlNqdDQ0ZWZxbDZocm5QRUVvNEZvRVlkeVBVemtMVmZFZ2JkaWRFSEMwRU13OE1qcFMzUy1xUU5qdGVSN1pTcWRRejlWSkN2SWZiRmZ4WEU4MEo3WjFwU3J6cEhoYkZlWkdqWl9HODR2UFhBdUhENkc5?oc=5",
+      "source": "Diário de Pernambuco",
+      "date": "2026-10-31",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.491Z"
+    },
+    {
+      "id": "5efc7ae97d1a5d6e",
+      "title": "MEC reúne denúncias de violência política em locais de ensino",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdUxzUHJmY0ZKU3lMbzlWUzlpU2dpUTZERnBMWEszN1hHOFlINVJpTjE3azVkWGRXMXhiQ0lWTHV6R2dPNVN5RnNlVGoza0hPX0VXWktPdTQwY0toRWhnWmNpZkR5dnYxNk1qbzcxTFpzQzROY2VoVTNzV1RES2JmclRWMHJpQTJPd1FoVFh4Y2k1bmo2dTRkQ0xrZXJ3M3FadF9Oa01ENURxaVdMVHBnVlc0WFlYMkJORUpFUDhvUURmTXBBTWl3?oc=5",
+      "source": "Diário de Pernambuco",
+      "date": "2026-11-01",
+      "topics": [
+        "Educação e desenvolvimento"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.492Z"
+    },
+    {
+      "id": "1bfc1a5e8389140c",
+      "title": "Às margens do Mar Vermelho, cidade da Arábia Saudita preserva casas de coral e uma história ligada ao comércio e às peregrinações religiosas",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOWXJxSzQ3dnZ1R2RVckdzVHdkUTZock1vS0s4cVlNRS1BeGphd0ZtY2tTZFdfenM5ekxMUlJDYnFuRndUOXhEelBEVkNkMXVIOGNWYlFfM3B1ZnVEdDRpMGltaFBXbVA4X2dyalJtN2x6Y0NLaW9ya3FmOVZkT0pObURXYjF5c1k0RXo5S1JSbTBLSF9FMlZjdDNzNW02T2FUWUVwdVlaNjBDbmhhV2FneVM0YUU4SGlvaE93VHhrdTZDWHlQT0cxMkZFdVUyT0JxLXh0a0JLSExkekJMTVd5YURHYnkzbjB6c05SRVdWNWZhMTlKWTBtYklEeVdQa3Vvc3gwLTZ3eWN1TDhDRndCa0NzTnVRUQ?oc=5",
+      "source": "Diário de Pernambuco",
+      "date": "2026-10-31",
+      "topics": [
+        "Comércio e serviços"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.498Z"
+    },
+    {
+      "id": "ea384617e33bc2f2",
+      "title": "Estrangeiro ‘segura’ mercado de juros e locais temem debandada",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeDlpa2RoeFZNcWdjTXJIcUlGbmRicThpRFF3eEZfVkZZSEYweU95SzliMENQMG5sU0I0WjU1RHFMOFYtZkxqSWRMYTJ5dWs0emppRC11YWcwZk5jY05vNG5BaWc1SmVVdlZSeEFBSjRYUHViU29FUk8xaHFlM2xCVjBRaHc2OVBwNW9FV0ZuOERiaFR0Y1p2TU5zUERJOVJtcWljaTdqbDZYSWRpZWhRNW5EZ3dxYWt6d1lZNy1n0gHMAUFVX3lxTE80eGd3bFowaFJQeE9KNmJYX0JDb21tUXhFRGxtejBHRXkwZzB6aTJnSzdSeXJVUnVpakNuNEdMdGpEYU9MUHFFQVEyM19CeV8xZ3NnSzV0NVd2NmR0WVF1djByREVkV094X2tiZjJTMUFMd09Xd2wwU3RZaGlldWxOX09wbUNyMG1FRUNGX1hPZ2toWmoyYzljNzRtSGwtU0JpRzd1bXQ0V0xqRmxmdHZRTE9FaEd1cmt1WExyWXVPazZYYWJ2cDlETTJBMA?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-01",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.501Z"
+    },
+    {
+      "id": "3e76854ea86d042a",
+      "title": "A falsa oposição entre crescimento econômico, responsabilidade fiscal e combate à desigualdade",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQTdvRFhnaHVHLU9XMTlLblNweUxQbWN2ZDVnejY3UVhtWkY3dXNKeFdQZFA1dTM2OWpSWjhRSl9rT1drT0lGSFUwSGFzUmt3akw4N1E2TDNrbW9WM2NWVTRpVGV1cE5JTFJLNFJaUkd3aFMyaVY3eHVjU250YzJzSW1qRXBLZEVhWVRzbnp6Y05GQ2FkaUxUZ2dtY0V0TERUMUVBbHNnbnY2WEJjaDd5NTdsYkpaYUpGT0Y0YURSRnUzMTZ5dlpFcy03UDNhMFdkalBBeUh2U0Jkaldy0gHrAUFVX3lxTFBEZ1JEakJZbG9TdmEzVWR3bkJTb01JdzRQVDkwbmFndVU0M25NUmd0SU52b2JaVjhsVDg1cTRXSjlaRlVvRnVldUItaXcwZWoxMmZrblFpT3BhY0QwS01YdWFabkxka0M0RWxSb0cyWVZwZWVLQldxOEJDUXlxQkhEckJCU1UwblNGWElXcmZET2FpWVlBZno0NzI0Qi1HVUFGUVdNWHUySnNGMmpRaXVaLWYyTHVBNTN3ME5zcG1NOVVNY0xyV0tRUk5qMjEwdGFBXzF4dG85dk56TW90bk0zRXJtMENzSlNtdE0?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-01",
+      "topics": [
+        "Fiscal e tributação",
+        "Atividade econômica"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.501Z"
+    },
+    {
+      "id": "89169765610e4afc",
+      "title": "Inflação, emprego e PIB: os números da economia de Trump antes das eleições de meio de mandato nos EUA",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOYk5EMXhUbVRjSVpyRGVaZm1LWXU1SFpvRjlDeVdoblZjckpQWGJRUFcwV3VQVE5GMkdGVnRZeEd3T1dWMUtubjh1RDNxSW1oVWR4Z3BUVDd4WXJDbkE0QjR5SkJUTC16UTNPamdfX0wyclVSTHJwdHBrVHphUDNFdnBtVEhKdldsTUQ1d1ZYTnhIMk45N0VpWmVieW5GNG5HT2VDcTJKaEhkdlJyc1d0bDl1X2NadlRoa1dkcjF1WVBYSkEzQnhzaURReU9Fek5fcTNGQThfNXMxTXBESy1Mc1JERVBoUmhHN1lF0gH6AUFVX3lxTE5OQTJIZjI3aXVLc0h0X1d4clFEb3ZKaWZDVURtRmdvcUZYTzk1cmdOcUNGRVJ2TURjdng0RWFyRWtMQ0ppR0JFWHhhTHZYbllNTmFxanRjNmVzei11U3E0bTRwNWZ1dW5hdnprME9GWGY5UkdneU5lZEd1cWZVVGFHX2lSdzlSa1U3cWZ5UDlGU1pQSjZMSVliREFrQlh1QS1jWjZEREtXSFJkMGh0RHhuZkhwMUhNbkVHLXVieUNrWVN0MTMxMmd5Y1hSTVp4TEw5MFVkOUVKMkh2N1hjYVE0TXQ4UExLYTZjc0tYVjd1d0JDUkdiYk9hRlE?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-01",
+      "topics": [
+        "Juros e inflação",
+        "Emprego e renda",
+        "Atividade econômica"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.501Z"
+    },
+    {
+      "id": "32dfe154fb12e159",
+      "title": "Ouro fica abaixo de US$ 4 mil, no menor nível em um ano, diante de expectativa de juros mais altos",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVUFjMGFnVXJ5VGZ5Zy1EVFIzaERJaE5rU19QOV82aTNkR0lYbzBnSkJTRVJ0TWFaeG5kREhWX3E4RW9IdURRRjROTVlGOHVfbjVUbmZOaUZ0dk8yR2gtVTV2WlcybkNGQVVhM0VEeE1vLWVvY2E1X2VldkJjQlNMMG9NT2tSeVhOZUlxTVVzSHItaU9jQ2dtdUhaQkZCNGlXSEVRcDVnM1VpZC05aGNVWGhXcDI3RkNHckRsdHVqWUJtUGNBYXZuZE5WMTBwYUZQc19WalN5UmdVV0xkU1piQkdvQktLT21v0gH3AUFVX3lxTE91eXBzOTBZY2FRTEFhd2t6X3lVQlo1b1dUc2ZKTlBlYXdKRnRsVjRZRWFlbndBNjllaEVIMVZUWUdjNzJzZURNVWdON21nNVdhaWhsd0E0aVBoU3p3TE9HVWwtV2NrR1IzM3RsWmlxcjVScElCZVRqc3h6a1E2Y3VXSk8wMENsZmhMV3VtVmtHbzZvN200WG94Um5mNENQdkRzR01xZC14ZU9MOHZLVEt1MC1pTnlMTURMNVdLVjdDeTk3eFFfTjJ3cFUxMEw4TXY0NU8wQU1HSkhmOTE3QjNLdUN0Y2J6VER1SkhzdVpFWE5Ld0pvUDQ?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-30",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.502Z"
+    },
+    {
+      "id": "d1eb0a1118ad838b",
+      "title": "Lagarde deixa o BCE com credibilidade no combate à inflação",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMW9SQ2lzaFdfOVJWV1ZyaFhpV25XdTdTVWdmUkZ2UUhQNUlGMzAtQkZNYUZkSVh2eXQ2T0tCWXZ1b010ajdONi1CeXhlSW9MWnhFdUp2UWZERDU2V19YbWF6VFlDRHhaZWwxbnl1MlhCQjVIc0VJb1dTbkpCUWxtYWdjcU54VUZ5eDdUMEZTVUhIRnBhQUVLRkFaTVJQSmZya3J6QUU3VmlIZGxsS19kREU0QUIyOFBr0gHHAUFVX3lxTE5iZ2FFTlZEbG9pRlpSYVpQTG9EYjFhSnBQOG0yV3E2NXRqenp6clBMSWZMMWtLVzV0TVlhWkdGdnRUbldXaXhON0lpbXFzNF9KQ09XN0RxWkRXX0ZLRl8wWVA4Wkl5NGdsLWhCUUFkaTdqc0lFR1l5Q1lTMUJQU0hTdTVkdzIxRE1jUHZjckV3aFIyRXdrZmxWQzIyWmhrWmRvWnpLcFpsZENwRGJUdFNoOWVzcjFZVUVaU1BtaGVXSHE2MHFDLUk?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-30",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.502Z"
+    },
+    {
+      "id": "5d6939346877d500",
+      "title": "Possível indicação de Fonteles à Fazenda agrada ao mercado",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUlRIUnQ2VmNkS09sZDZDbEdWR1BuOFhNOENKSVEycFItMExISzNwMm12aE1ieXczZ29VU0NqbXlZQnNtaXZOS2JYTmJuUWxlRkFfbWgweUZ0ZkNjZTN6cVp5c1NQWFVOdkxPWEdZZGFEWkY0RlluOFBwelNJaGNZSmw5TzRxZnVjVDNiQnA3OU5ERkxZcEhzMU5qSnYwNUFOeXVkWVVORkt1Qi1nckJBTlVVQzZrMTlWWlVR0gHKAUFVX3lxTE9Sd0p5Yzk4LVEybEJuWU5aOFF0UEJrb3hXUGEzeDMwS0xkV3JPRVljUkV4Wk8zVzNNd1lrd1M2a1J5ZTk3QjJQTVp0THZoanRDeTg3QUx3eVdkMUZySmxFajlrOXdoMGZlV1FTU0U0WG1yN0hwdkU2a1U3QnhZUXpaTXhTRnpIZEtEZnhVUGJwV1hzRVo2Z3FXNEVUaF9NVWFWR01BdE9VNVk1LWhfYkdTN2RiXzFpaGFkdzhid1lKOHZUbWRsZUhJN2c?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-29",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.503Z"
+    },
+    {
+      "id": "9b288eafca909a17",
+      "title": "Para o Citi, Alckmin na Fazenda estaria mais ao gosto do mercado",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWkMyOUI2UGhqZ3FwWm9KeHh4M0lKOHZtNTlRZG9xZjdhVEZTRlVDYXRURkRCc2RLOFRqN1R3b1BneUVaMHFxRGNYOUlaUXlWWUx3d0RIWWF0bVMyRUR4Y0JWaUtyNl96ZkJSenJhSnZXWFE0MllabEpfb2N4bndFb3NVQm1BcVE4N3JkRmtscmlPRFFzYWJaRDIwMVZXQW5oTlBYMmZ0RU9kcVVXT2FhbFJNMkJQc045a2Z3b3N2QU12UdIB0AFBVV95cUxNM19tX3R6MjQ5YjVKZHg0VV9FbnBlUVJFbjBvZzQzOFFFRnVXVXVIWjRnV2FrYjAyT2E4S05YTG56ek4yVjdJeTl5TkJsV2Y3d1BwOGd0MFVBbTVEOXZnUWdtbGFvU3ZXWnNETnpONEVkenpmQV9OaWVRcUw0Sjd4S0t0NmFkdTVKVVA2empWMlQwNFFJZTFUaUtHOUY5T0k5WndfempnTjZQaXh2ajJyWVVVOV9hS2RRaVR6WVFLZGo5cHpENjhDamE1SVZyeHND?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-31",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.504Z"
+    },
+    {
+      "id": "7a0d307516e59919",
+      "title": "PIB da França encolhe 0,1% no 3º trimestre | Mundo",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX2NDSHptdUtGZlFyaXZ4cXpxM1RZRXlkZ2NEWXpwMmlHNldoZWx5ZHk3dUFwZ3p4Tnc4V2owenBuZlFGMTBMTlNsSklEclJub2xFU3JVem5BbGFhc3U4QW9xVDFjSGdGRm5TOXRXYWRiOFNpMDMxZVZLbTVDLW1VdWgzb1RxZ3VPSTI0VGUya0ZUME9lZGhaN1VMc3EyNnFVTHRBZA?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-30",
+      "topics": [
+        "Atividade econômica"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.504Z"
+    },
+    {
+      "id": "f607b3176efd1f88",
+      "title": "Mercado de trabalho pode ter acomodação mais lenta que a esperada, apontam economistas",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUzhkQnZMQ09RN0dCNlJ0UlEydXVaVEhPdlFKcnNVODJaTXQ0b0s0UTcyT3Ftck9xODRYdmEyRDlYdS12eHRrX0ZIZms1eDNueDltamdIT2U3U1lnam43U1VQelZTQVltM1F3c0k5UVM4SFBUOXhidmpHZnpjQ3ZMRHR3QzRPbG11dl93SmlhY2dOMEtQbUNSMVlWdFBHRTFGRDVySmZQMmVBaTZMS3RiOVRKcktEcDNTQldrb3FuSG16WEVTOUdRek9DblNrYTRhZENwb3RR0gHkAUFVX3lxTE0yZkp4R0dEb095RXBZcVdNQzNIWDNtd0x0N1hqYzEzTFE3TXY3U2tmYkRSSUJLenBxMldkM0hmcmVNQmdHWUFEaG0zZHM2OHFoTHd5MTNXWDdNaUZBU0NxTl92UzdnMmxfX3lVdTB0RWR2M0VrazhDa2lFUUFTWXFYT1ZHSlpFVHM2VE9ENXE5bnRIUGF4eS1oa2lYOXhvUXgyNldaR3ppNzZoR3Iwa0Uyekt3N00wcjNxTkR3eWNJLTNIYS1CWS1ZN0V5Y2pmYWY3QUgzN3ZQalVvVEttUkQ5Smh2Zw?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-31",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.505Z"
+    },
+    {
+      "id": "287eafa829a8bf65",
+      "title": "CMN eleva limite de crédito de governos regionais",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNU1zTGUyVEFqR0M4bm1kX3VaS0NoTExUQ2V3TjdEdkVNenpTM3V4Y0wydUJIZllwRTU5cEVxRnZMYkpvWW9VdVFrcTdSTWl3SGNhc1dTVEVkRWduMms2ZjVYaVlLZDNGaTFoazcyS2NfMUlVcWVKSnZ6Y0hUTHhWUnFOQ05xVkZwZnFMZ25qeHU4RERMSkNFSmVTc29sSndLU3RoSlNuSlXSAbcBQVVfeXFMTXM5a1lTZ3B5bHZEWHFkdlFyR2pqZGZETDBZNTRqYmFzaUlwa1VoX2pmM1dzWUprVUhOT0JwNVlNa0FXM1BqUXl1QkVSaTV1Y1E4bUhKNzQzQTZUdHRtc0FFV1VOcUNZUXpyNHp0b1pYWE5BY0QyTXR6SjFjekVxNENJNC1fVGFtRlZiQ1ZkY3FEd21LWHFrSzlpREJlcnZNSW05RmVLZlZTZndOMzZVOWJic19MZFV3?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-30",
+      "topics": [
+        "Crédito e consumo"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.505Z"
+    },
+    {
+      "id": "860a4a205f7deaba",
+      "title": "Ainda é cedo para um funeral das tarifas dos EUA",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb0VlazAzQVdPNk4tU1lCNS03TmRzTW1LNU9RdWJyTzJSc2RzN0JvMTZKWDJQY01oc0pPaWVfWHMtdzFRQkI4Z2dGUjlPZkN2LWVDdXJBWUhHRmxidmpvUS1PWl96dDdpdE9jbXpBc1ZTb0xoWUpBRTgyM1hDRUVHa0ZLbVVZVlI0QkxkLTNyc0pzUHN1eE9zZtIBpwFBVV95cUxQMGQ1VHM3cmlEMjZPVFU1ZWVnWmdvUlRFTktza0diWEhLYWFfM2RzM2xHYVF2MzgtNG1uWFZmSGV4S2NuaWotc2ZwaTk4T1UwMHJ1d1RYNXhsSk5fX2wtLVpKVzY0cHo2RDBXbFlac2Z6X0o4X1FKb3RHR1QzV3h6NFgyQkVya1VSYmJTVE53NTFtajl2UVdIQzJXQ0ZkWHVBTG5CZjBWcw?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-31",
+      "topics": [
+        "Comércio exterior"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.505Z"
+    },
+    {
+      "id": "48493b44aab166e4",
+      "title": "Às vésperas do período de vendas de fim de ano, varejo reduz confiança",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWEg0b0hudE8xQ2dkdUVqMVNPQlMwX1YxMmlCZGxMX040R0VJQlBOOWJNWXVRYnB5VWlYUEFNNk9HbXQ2ckM3VW5vekpqdmRwZHlfSG1OT0ZLNTNFS29YaHJCSExhUFRhSDFtcW84S3lQQmNvdFhsVGViTkgxOF9JeEVlY3JrYk1tc29CUlVFb3VadlhBZy1CLWV4RmxWejRoR25xdEIweGhYQ2hCNXpENno3T2VZY2ptd04yTFpkbGp2cU3SAdIBQVVfeXFMTktmY3h2YWp3Qk1xSzN2eG1HakItZTNpZXpnSzZGQTZTTHBaSzg2eEp4d3pJclMzOUFMUGszWXBiSlFROHFqTkhuUFZzcXVzOWItOFp5Ry04R0xJSkoycjIzSmt6NEZfOE14QTluanVMMWZ6eXIwNzZnQS1Sbm1yeVNIYUZJb29IaGZOOG5JZjBmbHA3c3kwZmtERmlrZUE0WGVnNGV5Z2FVY0Z3LU5HM0pvZWF1clZNTTZVZURNNDJ4dVhRbkNJMmxNLXFodmt5dlVn?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-30",
+      "topics": [
+        "Comércio e serviços"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.505Z"
+    },
+    {
+      "id": "1164c23a9960eb0b",
+      "title": "Robótica industrial: NACHI destaca eficiência energética",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQTZJei1aUE1Bck5MUDh0QmE0cmRha3ExbnFxY25nbjJsWU9zMUxLS203WmdkRFBhMS0xNW1JclBVSlRlVlpnaFVZblBfOE92cTR5U1lMdFJvT1M2Nl9kQWJpbTBmcmdqdHh0dWVIOFgzUEJiZTREX01GT2lPbEx1OGdKQWVTZkpCSmZ6QjdXN2owX19wU0dNd0l2aHJBcWd3aFZhOGw2Wm9fM0RGUDRBMUNUUTRRUXFiaUlXemtXM2vSAc8BQVVfeXFMTk82cjlVM2Nvb21DbEFibjBSUUVHV1hLSlNrejFENXJBMjFRc0h5V19BekRYSWZsNDdBb3gwcEtBeEN1Z1k5MHp5bi0zd3FMX0dMb04zMFhVTHdTY3A1T3RkSC1qZnV5NUFRTHVEVTY3aHp4MFRmbGJsTUtXWEktSlZ1NnU2TTRSREh4LWZPMnp1dXBhV3FXWGZxT2QwYUhzRzY4VHBiRkZnNnVzNUVXcDY4bm9YaFhMUzB4T3djRzZBdkRiTzFiX2JVSnRoS01B?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-30",
+      "topics": [
+        "Indústria e investimentos"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.505Z"
+    },
+    {
+      "id": "9926f5bdee367a71",
+      "title": "Décimo terceiro salário cai em novembro; veja a data limite para o pagamento da primeira parcela",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUEN1X3FmVVpOMkliVW9qdXRpZHd5T1hNRkszX0s0Mk1rV29UUmJNSEJfMk1PNm05Y3BaczJYcmx0MFd3ZWtwWHZrMGJaTUJGc1hYZ0hPSFZfZFN0d1RQMWNRYWFDRDhfb2Uxa3o1SW0xUzRLaWxFWThKdmtpaWVUQThub3pSa3J3eXV2eWJkdVBPZXAxNjNiWEhZWExkRmhlWkYyX0J5aGNCaTY5OFJZSGloOHI4dmpMbFJnVVJRZWNpU0o0THlIZWxZdHFLbnoxVzgzMVQ3d0JSc0FBc210YUNSX3pnWVJFbUNN0gH6AUFVX3lxTE5SQU9IczJZTHVWazNmWXBSU2RxUVdGNXh2ZUY3NzUtb0MyN1c5RTZybk9uOTRYOE9wRUtIQ1A2eEhJSWtleDFNTjhPcDY0UllEa0VkeUg2d3lhZFVfWVdDaFdZNXNlUmpyNzlaMGY3NnZZOFM1OFdIUmcyQjFxNFVEa3ZFRTBCUGVuYjNJRkxLMUlhQjAyb2VrbzRrcTZUZlJYdTJseWh2QS1hSzBNWERNSG0zdk5JU2wwMDZtQ0praHh5bkVyeVRNZ0trQVAzTXpjZGtIaWtvV0ZITTFERUJRYkFmUmU0eTltM1E5bUxINksyYlMzcUFOT2c?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-01",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.505Z"
+    },
+    {
+      "id": "32653bc94970c34f",
+      "title": "Bolsas de NY caem com nova onda de vendas em ‘techs’; petróleo sobe",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWUNFV1RwWjdwNW12aFQ4cjRLendyY1dFdF9jZXNReGo5TVRVUExIWDlzb2tTZzlONGlvbVlTb1Y5aVRidVczd3MtaGpxOXRkWThURmluWVhjalVpeVllVU1CU3hHRkw1MFJhU25WRC1XQmJSaTVFcWcybEJmOEtFVGN3V0VmU0Jpdi03aFJ2T2NfSW4zWGJCaTc3bXJBSWo0bGpyV0VlRGswN0FoY1RRdV81Ti1VWkc5Z3U4VtIBywFBVV95cUxQNU16bXRDa0VvYTlUTVRWZEdFX3U2cTRTajVnU1ljOHVfTjJoZ2had1Nnbm91ZjQ0N1JCd2Zld25PNEdZd0JFOFl1RWxwMU9IX1VWY3F4N01YWkQ1YmNUWk5DOERMUzRNY2xad3ZONmNCMzFQZ2Z4OTdIZmlBMlpuUXNnbkN0MEU4SVpPeXBCcmtnMGlNcUlEYUtXTU5Kblh1ZHZ6MTNncDhkRV8xcUtCcnhobkVkdEN4c293am5xdm1YYkdodWZlanRhOA?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-30",
+      "topics": [
+        "Energia e clima"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.506Z"
+    },
+    {
+      "id": "7dbea2cc69491df0",
+      "title": "PIB da zona do euro sobe 0,4% no 3° trimestre em base trimestral",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMENCaHh5dTh4cC1WSlhHVEZTR3N3LUxPSTREaFJlRWxvZnBqN1FYTms0anhXT2NabG1yRS16UExvclc5YTV2VGRSVlBudm1jaHpabk9zSHZTeWloX3M3V0ZDNm9SdE5EUVBvNjFSb2lqcVBMeXc4bTkxaUlGOGtyeV9vbnZzQWdmNlJieEJtT0hEN2lkUkc1R2FPaklxa3JaNkxwVjE2dmV4OUNxcEQ5aUxMVkpaNXQ0aGdxY2ZYOTLSAc8BQVVfeXFMUFlONFdOak11T1c1RVpxaFYzakRKcU01aTJhOVd4aTB6NkI2VFhNTTdNdEZWUmlZUk1qQWpmcjVxRldnaXVLLTFyU0RqejY3elRuOG1LVjhwbmE3c2NGZU1uTVV5MlRPd196OExoSlRkTXlIdHVSd1ZWaENVc3NtaWZkWHVnOWVNUFVaRzhVd1daYklDR3BsNEExdl9pVjdOSFI2cWkwVHU5bFNXZzAxVlFld2dkMW44dHVOZmJacjdHR21QYmlxMlRqNjNZNzRV?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-30",
+      "topics": [
+        "Atividade econômica"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.506Z"
+    },
+    {
+      "id": "8473062b8fc24333",
+      "title": "Brasil usa mais IA no trabalho do que o resto do mundo, diz PwC",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPemprMDg5SWttSGlZNm92cUdiMm9PTTdtVXJYTjkxd1p3aXZuN0F3NW5qVXF3M3prSHVlTFBfQnVrOWJSRktRdmFXaktVWGM1eVpPUHJvR0ZiRXV6dWhkN1JzbGRSN3hxcUNQeWExRmlqWlpMTFdtVHAySVZpZlJ2cFhVN0s4V2RfTEhlcVl1OF82ZDhOV1EyU1NCY0I4bUZzSkZDTXFjSm1WMU16WXJBc01MM2dGSEdTUDN3Y9IBywFBVV95cUxNeHVfQjJzeXVFNGZ0dGN0X3VWZjRHb3lEdlFGWVNqb3NJTHNYZ2FBV21NaFNPZHFnMmtkTEhaeHlHZnp4OERrYVNOVGFlb0JSRDItR2VzUUVGUmw0UWtjTF8zbGZIaEVsajJseEpWNm9IVXAxRGNfa0JONUpwVENSQnRjX3V4NDA3bGlPRTI2RmR3SHNsU21sbDEyTktHdVhiUGJLbTV5YUpUdWdmdjkyYm5fakx6YnBtY2tkX2FHbngweDd1RWZTNmx1TQ?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-30",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.506Z"
+    },
+    {
+      "id": "045ccffef3389f15",
+      "title": "Agenda de mercados: Copom, ‘payroll’ e ‘midterms’ no foco",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObHF0N2lrSFhwamUzR0haQVA3UlppOTFmR0paSHBjRkE3WUtjTDZpZ21XSzYzcWtEVXNja2RlVnZqVWdqUF9IQ1BaVEhsaHhZRllkME1Ud0I1MkZHdjU5WktRUFF2SFBQNldoSVJGSmpkbG1zQlgxazZuSHFBUmhWdVZsa2RkNGhJSzVEMG0zYV9PeDJCZDBzdzN1d1ljaVc3RlM5ajRBQkpGcXNFamfSAbwBQVVfeXFMTkFpdnpHaWJoaUxTUUZ2YXhLbEJzNWliWDZjclVEd3gzZW9HcEpwRWE4VXU4c1R0anhMWkhkNkp3UVZuekhLSDFWZjFJZUFncmY1Xy1WZy0yZnQ5QTNaOWRoeVNFNUZQSF8wR3hYdk83N0FjamxtZ0xncS1OQmp2MFh0VFZxYXVUQ1dDdEVXVDN2YXZtUEppUGIzR041ZS1XZ0xfbEpURmMxekV4eW01ZXVnNFl5VTY1aHMxZlo?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-01",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.506Z"
+    },
+    {
+      "id": "43c4f884a5513902",
+      "title": "Setor público consolidado tem déficit primário de R$ 5,5 bi em setembro, informa BC",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcHNBWjByRk50R2tiVjY4ZzdIRU0wY1dXc1JCNXZOMjQyeVgyR3IzLW9MVDNjS2s4TWtJa1YzenR5dnRrT3VFLVZQWGxSb1ZlNTF1TUoxVEx5eUZmMS1WQUF0WFpVZXpwM0xkU21zemh2SXc0UVhLMW1uM0pJSm9kN3VTOTEzN0hlLWhFbm5nMjNnOEViVHZfQ0JtcVlIZDRoQU45UFhhYm00V2VUdllfTXRpZmJ3UmVUcktvRG81UElQMjFxeFcyVThUb1Z2SmtFdUHSAeABQVVfeXFMTVlmSzV1My1iekhPaEp5MlY3ZFMxZG1CNXA3TVNjUENwenlOc055aUZCX3Q0cGxhT09lNFFkTVV5VFVKTnFMZWZQV1lMOWhYY1lpUG9RMGtpREZVNWd1cVQ0TjZpeW95aUhrNU53N3B1blN3dXlrQ2RrVFVaZDhPUk50N0RhMnctOG9OTFlKb1pMaUJKLWtxc0pzSU1fVTZMR0pxa2x2UnVaTkh6bjNzbjRvdWJCbXl3Umo4MmtvMWtncy1SVXNmcEJfSHJySzV1UU0ySDVmZU5rdnZvU0ZiX0E?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-29",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.506Z"
+    },
+    {
+      "id": "48ed4142bb394d39",
+      "title": "Empresas mantêm cesta de Natal como benefício, mas pesquisa aponta que funcionários preferem crédito no cartão",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUUNMRWN6N18yaG05cGU1NzFmaExuWVVEMlZJeDR6X01DaGY5c0dUeXlJUjFCWFpyY0g3Y1pUVjAtRlFZVnVNeE1tbG9Gb01JcGNyMzZKNTg1aHV6ejJjbl9VWGZaNG5uOGNUa3QxUEdRTmJ0blBSOUxSZ3VzWEdrcnlKeVdKVlRNcmZrYzhidk1NazRhZHpwc2VBZU1heHduOU44T2RPWEJHNENka195cERWU1Rma0FOVmlxYURwUTFUNVJuRV9ST2ZraDNuY1lZTGlpMUJtSXlSQk9hWUNmSWFzZ3ptLUF5V1NCalRJVkZ3Y19ETklPdnZPc9IBigJBVV95cUxNLThRQnFaeU8zWE8tbVMxQzhZbDZ1RkZzVFEwbVNWaXFyRGwzSFpxSWQyUm5FT3ZVQWtCTE5BT1NmVzhBYU5ZbEdLOWk4UUU2SFljY1VRU1AyUjBzbkZ0emxRT2xHUS1BZG1VTExoY3YxR0NCYUtDemUzYk5KNE9ialc0NTV6UjZacnJHQWtuN2pEbjdqSWJKR3JWRXV6dEVYSnpwMGk1WWdIZ2RWd1JNalAwdHBTWHFhekVQckZkVmhlSVMtTGxyLWR0NTlvOEM4N1lRREIzbHprX2E4Uzd1QlF3eExJMlQ2SkRsWVdJRUZKSHo3QVdZVWRTblhtQ3VseXdtTDNWNnlnZw?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-31",
+      "topics": [
+        "Crédito e consumo"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.506Z"
+    },
+    {
+      "id": "bb82cd5190f41fe0",
+      "title": "Paralisação na planta de Samambaia afeta produção de minério da Usiminas",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSnBuanlRTXBsLVlObll4eHBxc3BMQm9acDBjTnZZc3Y5Z1ZTVUFpZ0dGX3FjLVl2YzJpRFdhWHJ0ZERLVzlVdEcwMnk1SlFSNnlsWUtsRXVZMEVuOExDV0xURjJMS0NoWVg3d0lhNXZDaGVxQ3BQcTV3bGRFSWRwUlhVWXJZTFNBQlQyem5NazNXM2U3VFNEVUs2emx2VEZHZGFXZkpiSktxNm9oQlRxMmxUM3Q4ckliUkVFT1BKZWtvVXFiZzNWZEtR0gHYAUFVX3lxTE9vTGt0V0NZYmtVSUZIM0o0T3pRQVV5cHhBRld6ZTFMbno5OHNxc1luYzcwZ2NFcjF1c1FvNWxLM3NQa1dBUzdJUkFSR1A2OVJDSkd1SnVPT1NvdFlsSDRYalVtbEplQnhEdkZiVHNtVWFhMHJvVVRZXzB3WHFwalJTUTNOWW55Q2c1NW1MdFU1OHpBd2VSM2xIdjVzSzRqNDZaQXEzelZQNEdwSUlxUmhNVERueEw2WC1kNXhtOEJscGgxWjl1UW82bG9XOERiNW1GS2lqb0J2NA?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-30",
+      "topics": [
+        "Indústria e investimentos"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.506Z"
+    },
+    {
+      "id": "2061892160a05adb",
+      "title": "O pesadelo da banqueta de bar no local de trabalho",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPY3lsNzNCMGxFRkV4VnZwaEUyeG02V2ptdG5YcUY2ME8wUnNVcm9XdnIwN0Q2TlA3Q2tWZ01CUUNPLV9haF9sTTRkX0tINEVIaDVFV3lUWXN3M0NlcHFaTC1neVJ5S3lYblMwNVpVWHpudmhYY3dyRmJKTzFNZjBzOU5OTk96a3Z5Y0xJY3RxcmUtUkpIOVEtTW1hc0pLcm9PZWVNNmUzTW5BYl9V0gG7AUFVX3lxTFB4Vm9aeVI0Y0RNQ1plVW9la3FPWFo0YUt6dEt4MF9MbDA5Zk5pb092Vk5nekU3ZnJVaGd1OEc4RE5fMm52eS1abGdmS0YtM3ZTRWdZTm52bllsdGZic3ZXcjUtNjFmZXFpWG5iV1hVa2Mxa3BOQUFmYVdwdFFpNENiUzMteGVtRjJrLU5OOS1EVnM2SDU1c3FUbjNheTRYSnFJaGJXVFJPdjV0S1pOOFpnZjl0RTRUUENXczA?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-01",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.506Z"
+    },
+    {
+      "id": "2a84067858b6792c",
+      "title": "Índice de preços de gastos com consumo dos EUA sobe 0,5% em setembro",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQckNoNXJ3c19va1FhUWNYb293QW5QWGFvbUlXdGxwOExXdGFaeU9abE5yX2xFOXRvQXcyMndjVVc1T0xMTS0tVER2amNjZGNiellZMm9sUHZFUFRMQWJBaWVVYU1seFRLMHhBUzllRXlEZ3dwU09rS1k2WDAweWFMVWU2YVZEMXJ6WUlDejk2eS1OUlAxUFVpVlUzWmVxdG1rVjRiWHlSYlUtY1lscHZacTc4TXBHYUZNSkVQYnltSlhjeEhHeHAw0gHWAUFVX3lxTE1VMnBKdGlaQ1Ntc0JmTVdWVUVuZ3phbG1qYThIc0VRV2FtNHZFY1l3aW5nYUtCTk44MW53U1EwSkwzbEF6RW5KQ3oxbFdoM2lrSU42MDVueE9WTjdOTW1vOTY0dThaa25Pak0tSVRET0VJYkViMlROeXlpbWVhUzZmTjg4RDJ1V1pfeEdLY1loZkFSUENVdlJUeUV3dEdGbVlTRW9fVU54Sl9Kd3BESHBabXJySkp1SGR0T0dXeWdmVXVZWXpfVk1XT0JoN244dDFsVV85b3c?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-29",
+      "topics": [
+        "Crédito e consumo"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.507Z"
+    },
+    {
+      "id": "5a5bd3203d503151",
+      "title": "CMN eleva em R$ 2 bi limite de crédito para Estados e municípios em 2026",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNng0UW5sazlPVGh5dFcyN2l0cXd2ZENvU3lwLVFVcy1TaXZTaHhxbDFPckdzakxmNkVqaWxtZ0JGT3oxYWhQcUpwOTA3QmczaU11RDRaY0FuU2ZDYU1QcEYxLVp5UktoN0xJbXJaX2txYlNzUHctcjNjV2VIRnROUXRmQUJQbDJFT052VHE3d01GaGVqa0pLN1lqbXE4Nkx3WXh5eTl2YXIzMVZtWkNJeW1YY1pYc3JpaUhlRHhSQ1JBRU3SAdIBQVVfeXFMTWFvc3Vqdl9mVElyaFpMbTNUOGRBbVJSTXhWUE9pQ0ExRlIzajZPemNRZFM4UnlDQm9UZUNESzZYa3pCXzk3bVF0MGg1ZHlpYTJkdGRMT0xwNkt0eTdJSWl0cTZDLVAwbks2SWJhdUtwVlRpY3NpbGpGak9PeTlETjBsaFU1UVhFQUpyOU5UZEI2cFZfS2RKX2hLZkdjOHdwSUVCc25yMkt2OWpzUmsxdjM4d1JuUkY2Tk1jYnpnaEVSZVlvOW5COGFIRHFTQjFuMkZB?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-10-29",
+      "topics": [
+        "Crédito e consumo"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.507Z"
+    },
+    {
+      "id": "a3b954d6eea2d163",
+      "title": "Tamanho é documentário: filme mostra a indústria de aumento de pênis nos EUA",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUlRMT1N6YnFfWWRLcnhIcFRGWGlmN01MNHUtUkpCWTZMbk5udjI3NmRkakxKV1ZnTUlBN0c2YU8yMkZoSjU2ZGNReW4xMVZ6VWlDVnBfc2ZMVUIxV2FfTV9BelR3Nk0tazhXVC15eXg1YTdwT2l1QmFNXzNHd19RdW9URG1PUEtIVklGOTE2VmVQM19FRnBJaVhSMWJLUFotN1h3U2c2OHA3NmtQYTctT0lNWUdMRWpkQ2N5dDlfakV0Ty0tcE9UUF9vYXhMZ9IB3AFBVV95cUxPYVQzcll1Z2dCLW5vSF9jb2FDSEozV25fSTdXTmdKRGQ5R3p6RTRwU0EwNFF0ZHlHekJxbGJSMGpPTFRaRnJxZmU3QW5rVFdTTDltQ25WV0hmbmZUc3lRZXVGd0NCSmdiU1JfZzQxdUJ2WlF1ajZaWTBtT2tBZ0ZhMWk3ZnE4c1piMWM4WnVoMU9peEY5N25RWUpJS1JGTFNlNVo5dVhVb2ltTkdPbXlRaDZPMVlMaE1lcTcxLUxZYVNEQ3g5Z05ycnA5azF0YzdzMk5meWlGalJLakp3?oc=5",
+      "source": "O Globo",
+      "date": "2026-10-31",
+      "topics": [
+        "Indústria e investimentos"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.523Z"
+    },
+    {
+      "id": "9d6970ab9d0ea210",
+      "title": "'No fiscal, importante é ter estratégia na direção correta', diz CEO da BlackRock no Brasil",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdzVSQzc1R1RkYWt3MXdaNmFpQ2lPWTNtdi1vSVFXbXEzVXRObWJiOEY4a1puVjl4cDlZRWFmQ3RQTVNKRHlPYzRwUGRVNFJhMzNKU0ZhbXRMbDNWSEhfdXl0TkZGRHF5SEtlaEI1NmZFdHVpalRmU0w0UmpvdDljdURiLUVVNTVkQllReUFwdTl2dXRpRE96NVRteHJnWGg3RUMxZ2M0V1I4S2VjblNEWDJGNEVMSnh6dE9wTE9FY2Njb25Ua1NZTmN2VC12cEZCTFBJZEZkdVhQd1poQjFB0gHuAUFVX3lxTE1sZUtJV2x5QW1SaXZKLUdKZ1RmUG1DU2hIYVB5d0JhV21XTm9hS1dobWtPbHdMMV9TVFE3aUpJbXlHcmdpZi1tWXEzZXRpbEF1aTBLcTN3d0ZTa043bVpYUHBUNkR4Qk8tWlZzZ0t2M0tvZGJjcWFCSTRYcmo0MzcwRGRkQjJrSmhPQVhQNkNLclcxMWJxbjdyVDNPaG8xQ3FPYm41M252YlVERzZpUjZwSFktVjBIdGNmMEZNaDFvdi1hZ2Q4WFdBbEtoc3owM1VqQlQ1MWxKVUhoTHlpY2hVa2NRM2w1cTZOaVFWQmc?oc=5",
+      "source": "O Globo",
+      "date": "2026-11-01",
+      "topics": [
+        "Fiscal e tributação",
+        "Comércio exterior"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.523Z"
+    },
+    {
+      "id": "15ab417daa596e07",
+      "title": "Multiplicação do crédito subsidiado cria ilusionismo sobre situação fiscal",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSUYyYnRyTl8xeTl5QW9ja2J6cGNrek5xaWx2aTRmeWx5MG5tdVRmOWJOYW4wSnp0NWhLOWdEZFZWNExpWmpzQWRXbjZMQmJCM2VxaHJCZkMxU0dQcHFSUGt5bktwSHdCOGROMFJSbERmVlNMSG5UNS1zRE55TkF2eFhMdTJEYmdVSHpiQXZtQWZNazhUaHk5NXZSdGo0NjkzVVFKZW5aX0tvdzFNcGtxQWQzdU5YZ091bVRUZ0VDR0VJN2FpTEV3a21xTUhKeU1hVWYxeNIB4wFBVV95cUxOdldEamtNczY1dEx5OGt6T00wNzU4ZEdHbno2elVBb0hZQ21tekcybl9tZnpPUWJhY1oxTHZzUmk5ZWJQbVVXQzYtTFVNMDJSYTE0TU9tZkZfbnREaUx3cGV6NWpYaTBYTDA3NHBHUGhObGFnQkVHYTF2MmxDdFU2ZzZkYmljME5EOXBQU3RyV1lMNi1wRkRmRWgzVUgtSm1CWHM2c0JCSjMxODNCemI1NktLTUp4aGNLUkJRc2w2WGRnUjRKYktBMDVjLXRkV3ljQ09ELWdXRW9wZDhDQVpmeFF4UQ?oc=5",
+      "source": "O Globo",
+      "date": "2026-11-01",
+      "topics": [
+        "Fiscal e tributação",
+        "Crédito e consumo"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.523Z"
+    },
+    {
+      "id": "4bdc4132912defaa",
+      "title": "Ministério do Trabalho recebe mais de 4,3 mil denúncias de assédio eleitoral em apenas três dias",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPb05fRXlTS2ZYMmtjOGhXSWhWOGZSTVBnZG1McWpLaWZIbkRUckxPWlZwSngzYjdEUVdwT3ZqUTJSQkhSMzZTTlVobjMwd21pTmxZano2RzN3azB6V3JoWjlMdURHdG5KTHFua0JwelNiUGVvSVZOT0JXVDhIbk44OVVhNFB3RVNaNmNYTDZLcUNxdVRKMVNUS1FQVTJrUkJzN3RGY3Rjd2lHLUVZY2hDb19HY1JQSEExM0RwdmsyNE5jMHNTTk1Sa1hkNURYUUk5QkhfUy1fV0dMd0tpRjhEWV9NVzJYNzVtaFHSAfgBQVVfeXFMTXhOUkRaZ0tjVDBXcWF6VTJSU0ZKMzR0SHhOc0pITnVDaF9NbUpGZjBReU9BU285QndJc18waXgtZWFvT0pLcU8weThsSnhob0hlVEo2Mi1XcThfdkxHQndpSDZaR0ozLWkxMHBGSmVkdU92Y1BIWmd2TENZSHVWNW0tSzk2RXZOajlvN0JKVF9CbThXS0xMLTRma2diZEhOQy12ZUZWcGNoYUVmREJBdXZONTVoMm5KNjgzMk5SSDMwOG5UUHk1cUpjQjRDNzhLWkhLR1pZWnNDSGJPMVBuX0N0d3lGQ2QweUdVcG1PdkNkNzFncm1TUFk?oc=5",
+      "source": "O Globo",
+      "date": "2026-10-31",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.523Z"
+    },
+    {
+      "id": "186ef3f37dffdb85",
+      "title": "Procura-se passeadores de cães-robôs, e não é necessária experiência prévia; entenda emprego em startup",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNRHR0WlB4YXBTaTBZaGdkNi13Y0lud1FCWEdiRHhpYkZOLW00RGhyV3FtbXdEN21rRkw4d3EtaFMxSHI5a0VLd25FRUlRdDF6S1o3c2NwQ1RFWFlQMDh4OHh2Mm1CR1ZTQ0Y5OFRwWDRGdFpUWTRsc2NwTGV3d1IzbGxOdnBkZEtxbXZiQzFCYjNaNDZmVTVHWTVTVTJERmp2NE5mT1BpVzcyekwzaWllRHhESFFVaVlYSUF2d2FUNDZxdl9qRXl1Yml2b3ZjcjJNWlRHSWhsU09McWhxdDBQOTB4OGpvOEthWHFGTzcydjdMd1dUMERxbTU4VmljUGhy0gGPAkFVX3lxTE1wWnNHbXV2cXBibFhHeUdQR1otbVo1cjB0NUtOUVVTQ0FWVWppTl8xOEpEeDF2SEJMb2FJZGJhcUFaQXdZWXpMOTl6eDVJbF9WNHNOZC0zbndOd29zT01wNDFzUGVhOTlNeGxCN3dYZi1INVczNndTekhiM0x3eGEzRXdzc3dPbnBKQzZPZUF0bS1CRm41TEVzektORlR6OTJwUnc0MEN3TE1yakFsLXZDS1FoWFhuRlNRRWJweWxKalF2d3JkZWExelNLaHZLR09Qbjc3eGJYVEVac1VCYm42WEdxM1dWbnJnZk5BZHluaUhFcDlZOFU4TUNGQnB2QXlJeFA1NmRkMDRYMzVEc00?oc=5",
+      "source": "O Globo",
+      "date": "2026-11-01",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.524Z"
+    },
+    {
+      "id": "18cf1360291c0673",
+      "title": "Governo lança medidas contra assédio eleitoral; Justiça do Trabalho manda Meta retirar publicações de redes",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOWGhrZENhMmpGcEdXVE50T0tKYUJQTzhLZWFRZFU2bHp6amFmVmFUWlNFcXd1YWZDUDlYWmc2WXRaSTh2ZVZTM1gyeXRQZGZ2dVIxamhOQVpiT1ZYVVUzQ0dKTGF1YU1YY2hweS1uYXRUUUpLa05DdGdwRGJjckxmV0hya3FFWjN6dkFLNWpNVkJPTGFrS3c3N0k0V1ZOYUI3Qlh0UWVVMUVOdWlDZ2dtd1NxWl8ta2w3MDg2V1lad3QxT3ByTzhQY1ZGU3hWOFRPVE5GMF9FTHFrU05mcVZ2VFFHcFdZREUyQlZweENkSEIwTVN6VHJncUUyTWdpd25XYUhFdHQ2d9IBhwJBVV95cUxOWGhrZENhMmpGcEdXVE50T0tKYUJQTzhLZWFRZFU2bHp6amFmVmFUWlNFcXd1YWZDUDlYWmc2WXRaSTh2ZVZTM1gyeXRQZGZ2dVIxamhOQVpiT1ZYVVUzQ0dKTGF1YU1YY2hweS1uYXRUUUpLa05DdGdwRGJjckxmV0hya3FFWjN6dkFLNWpNVkJPTGFrS3c3N0k0V1ZOYUI3Qlh0UWVVMUVOdWlDZ2dtd1NxWl8ta2w3MDg2V1lad3QxT3ByTzhQY1ZGU3hWOFRPVE5GMF9FTHFrU05mcVZ2VFFHcFdZREUyQlZweENkSEIwTVN6VHJncUUyTWdpd25XYUhFdHQ2dw?oc=5",
+      "source": "O Globo",
+      "date": "2026-10-30",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.525Z"
+    },
+    {
+      "id": "d1f41ccf6f58a1b8",
+      "title": "Reforma Tributária: Senado vai ouvir Fazenda e TCU antes de definir alíquota da CBS",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRVZhOTBlcHYyeFNJaTV5WVlVVm84d1p3bXdaZzVEYzhqRjlHeXlidHE3TUQzdG1EaVNiaG42LVVnTFFFTTg0YnVxN2ZpU091S3RoMlB0RVZGeVM3SDI2MDRQX1dHV2xsclFaVXplVnRUM0NrYXNGcDgzREJhTTY1SUNfTEl0Y1BmMjZCQWo1a21ERnZVSUs0MGlRd1pQbHhRZlZSOUFIS2k4VkR6S2dfaElqSXNveFdSU0FlMFE1dUdMNjBfTnBtdU1yU2dqUlE4cFN3bWtUYUNta2FsdTFna2QyWlQ4SlXSAecBQVVfeXFMTUVWYTkwZXB2MnhTSWk1eVlZVVZvOHdad213Wmc1RGM4akY5R3l5YnRxN01EM3RtRGlTYmhuNi1VZ0xRRU04NGJ1cTdmaVNPdUt0aDJQdEVWRnlTN0gyNjA0UF9XR1dsbHJRWlV6ZVZ0VDNDa2FzRnA4M0RCYU02NUlDX0xJdGNQZjI2QkFqNWttREZ2VUlLNDBpUXdaUGx4UWZWUjlBSEtpOFZEektnX2hJaklzb3hXUlNBZTBRNXVHTDYwX05wbXVNclNnalJROHBTd21rVGFDbWthbHUxZ2tkMlpUOEpV?oc=5",
+      "source": "O Globo",
+      "date": "2026-10-31",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.525Z"
+    },
+    {
+      "id": "25aa4d517d3c455e",
+      "title": "Dono da Cedro Mineração articulou com Eduardo Bolsonaro indicação para o comando da Vale",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQ09xa2dNa2lSZmpFRkhBeWVnZnhReDVCSmVFUWJZMWM4LUVzbHJHTlppeW51dmVsTjkyVF81akEwOW9BelJiWEdfQWU0UkVXQmJHZGFpSHZlak01dlZDUmpZZVMzdzI2U01sT3lWcjFRWWlabTZVbFNQZUVtcEdUS2JvOHdvRnJvNUVRVHJaWjhUNEJHMEdlb1k2eTVidklDVS1TVWNrejJjbnRwOW5DeEc3QklzMnFjQkdZcHREX1p4MEZ3S045SUtMc0tKdTVRZW9FNTN1SVduMGNVa0M3aWE5cVNBUdIB9AFBVV95cUxQRnpWVlBWeEZUTjJYOUltXzF5YVEyaXlXT3p5QzNrNzkweWFfUTUwaDBLTkZKR09hRjhVOGZNNzRtQzlZSVdNeGNFR2hORFBPT1BJR2hpZzRzLWRWRVdXUjRRcm5OV0lBUkM5RUVpVE81U3hod2tIaVA3ME5EaFdsem5VRWNnNV9YSzZ0N2g4SEtXRkRIXzhJTmNrSFNUamRoS3RBTThNTUtyRS1YVFYtNXJjRmcyRmZMVEhvdC1teWFRVHIwLTY1M2JCUG1Bb1dfWnM5TExXLTZHQ1VVQl9SUzVWTzJBY2d2VmRnUFZqcTYtQW00?oc=5",
+      "source": "O Globo",
+      "date": "2026-11-01",
+      "topics": [
+        "Indústria e investimentos"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.528Z"
+    },
+    {
+      "id": "cb2b9e89a03cfc4f",
+      "title": "Fictor cria ‘sala secreta’ para mostrar ativos a credores em meio a dívida de R$ 4,3 bilhões",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQenFFRklBbUtJRFpfYS13VlgtMWo2VkpXTFhVX2ViT3V3Mzlsd0VWc3VHVFlIYzU4YzFpMnpJRVBhRVRBTkhhb3dQV0hoNjdtMy1xM3JzeW8tekp1UFNDVUIxX3FiTzdqang3QVgxd3FkeURkZjBhUEZDVFc2clExS0FBWnpaYTRheW9WNEdnSVhYTUx6SDg1SEQxaWFOa0NoWEo3OFpBd3FOZDJITkZEZzZvWGNUa2VKNG1wdk81Y0x2SVg0OW1OcEV1MnhveUtUSi1TQWE5QU5sOENVU09lc2pQX2Y2UdIB9AFBVV95cUxQVFlLbmNSdXlpX0RGMERKdEMtOVZUU0dRYUUwOGxlVGZBWFY2SnJHLU90YVpielVwMkhDeUZFWXgybVo0OV9XSGZmQmt0OE51aUlNS1RpaGNsVGJ3SWluT1BvdzYzVUhmbllkZng4SEdTZ25MdEQ5bHBIX25oU1JIclhzYjJpVlJXME1mVDJpLUpEMW1QN0hKQ1pBcjZ4cFhoZ0RjOHliLTRZSkl2TGNPcTJKZ3BSUlJYNnN1a0xOYXExMzROTTRNVXQxWlNyRzc5cFBSb3pSb2xMNEVxekt1Y1pYbjFRSEhQRHNnTDBmYnFVd01u?oc=5",
+      "source": "O Globo",
+      "date": "2026-10-31",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.528Z"
+    },
+    {
+      "id": "5c8a8b102175ee58",
+      "title": "A casa própria cada vez mais distante: o custo do desajuste fiscal no crédito",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObnNSUUZQMjVvaE83cnhRWXZmdmJuMXE0M0tCQU9mcWZnbzQ1VFl5ZE9oSFNoSHo5eTVnQ0NnUFR3Q0hLOG9HX2p6OFktVjRETzhYWVVrbW1ScGo4aG9zazZwUGllMld3U0ZoNHN5ZFFmQVZacFB0bndPTk13eDRQRkQydTNDdzdvNFdlMVU3OXRyczJ1aVJBajJGQ3g2b2Vvamh4YXhHeWxyQ1k1YkM0VkJSTm5qR3JHd1dkYWlHZEk0bHV1d09kZGhsYW1DVE5ZakNtX0xqTi1Edw?oc=5",
+      "source": "JC",
+      "date": "2026-11-01",
+      "topics": [
+        "Fiscal e tributação",
+        "Crédito e consumo"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.889Z"
+    },
+    {
+      "id": "dd076fc5dfe61461",
+      "title": "Acordo Mercosul-UE eleva exportações brasileiras em 21%",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV0EtaHlBbS1fcGlBTi0zWVBjaHJfNG5XU1pOTUx1UEpEY25VZUxsdVduZE5wT0xDUmNLNFBlMkUyU1lST3hkSTItX0NXb243UFhFNlRlTndUVjFOVWo5Nnd4bDQ1V1BEWmwtam91Q0tnLXhqR3ktNE55dzJNN3plei12UUZGVUN2TlcxTFIyNmZHaXpGM3duaW42ekY5TS1kUGxz?oc=5",
+      "source": "JC",
+      "date": "2026-10-31",
+      "topics": [
+        "Comércio exterior"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.891Z"
+    },
+    {
+      "id": "112d3d2e41576290",
+      "title": "Déficit de qualidade de vida",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYUhGLTZTNTBJdzlSS01YZXRRZGs3YVJ3UDZocF9YMnpuUWtOQWM4aDJ4M1pGRER1U1BlUW9CQzFGTjhhbmtrMWFnbXMyOGdPaU9JUG8tRXFkbEVKckE2azBfSUc3MXdtNzl4WVNfZUF0NGxNRGpRMTVKeUs1Z2MwMjcydHpqVUhsakt6WQ?oc=5",
+      "source": "JC",
+      "date": "2026-11-01",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.892Z"
+    },
+    {
+      "id": "06f8824480b9e91e",
+      "title": "Chilli Beans pede recuperação extrajudicial para renegociar R$ 340 milhões em dívidas",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVmRKMUt6U2FLVXBFOG1DT1VzektSTThzR1JpTjViSEcwXzNUOW1fSVh6V1hROGNKc2ExeEdPbXp2U0t5anRSeXptTUM3VFBic3F3ZEVJa2pKNUdDbXZZMFBiVTk2WmRMYWdMakhUWks0bnJaWmxLX0ZtZjVMRFhRSnVFdEdLU0pva2VyTU80R0FrVnVabktRNEN5MTN5MnZ5d3B3RUFlcExSeDVJUHZlTUhUeXRLemdPdXBSUzJ6dC1UWFFGN3ByazN5aDY?oc=5",
+      "source": "JC",
+      "date": "2026-10-31",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.892Z"
+    },
+    {
+      "id": "973eeb7987b7a998",
+      "title": "Desemprego no 3° trimestre de 2026 é o menor para o período desde 2012",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTlF4Yy1RbHIyTDkwRlVWLUVOSkxhaWJXNTZBTWdNTnE4MTZGcFBkRWU3MEdfUlBzNEpxRUY1SU5iSzg4QkxYWWVXM1dkMFdaN3ZtSkU3VW5mLVNkbnV0RUMxRlNNT1ctTWdZWDh1cWd0b1g5NW5mQWJkbTNMRmhxQ29KM2JlTnRWbFhZY21fNThRZkNFRFZYdzhuckpOdFZ2ZWwwUFFiOEJxdnU3SVAwRUpMYWNYYmc?oc=5",
+      "source": "JC",
+      "date": "2026-10-30",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.892Z"
+    },
+    {
+      "id": "25ff88002a79d53f",
+      "title": "Na Fazenda do Piauí, Fonteles reduziu dívida, mas teve déficit em metade dos anos",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQLVNFTUFPU204MW00ajRGbDlYT2JpSEM5N1E0TF9LWEJDVi1vX21sOXROT2lob3V2NElPbzIwVWhoZEdJeGFLT0hlNDdiRjFHUmp5d2FaNDN5OEp5dGlEeWNmLXdHY0dCaHFyQndoWTF6MDVJOXA1UXduM2NKbWxlci1xYnBxSk1RcnpoR2NJT0MwSFFYTjlBT0NKU3lEVTFZQTRaSU80Vkd2a1U1VGJ2UTZsY2pFWllmc1FYVHlDUHBoclZy?oc=5",
+      "source": "JC",
+      "date": "2026-11-01",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.892Z"
+    },
+    {
+      "id": "df53750d96ef5d60",
+      "title": "Com show lotado e energia admirável, Djavan celebra 50 anos de carreira no Grande Recife",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWVkxUDZNR1JBajdvdnVnT0hwSlNJZEdmV3JBSmJmR3Jqdm5hUGNWQm1PTVBNNnNYMDVJSm8takFkcXNKNWJlTEpTMXgtRkxqV0pJTFdqb2Z0bXJCUkNqTFJYakpsOXpPVjlxbklELVozN2hKRVp4aFVfY3BQZ0xEVTdiMFRLdWNDQ0tuenBnUm55LVdlZUVOeTg0OXdjTm1tbmlCaGRQaHFUdkxPTE9xMmtJdmFJN2FqcXhSOWVDbzE0R2lfSzVQUGNlUEhMdw?oc=5",
+      "source": "JC",
+      "date": "2026-11-01",
+      "topics": [
+        "Energia e clima"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Pernambuco",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.892Z"
+    },
+    {
+      "id": "c4b81bab9702deb3",
+      "title": "Tamanho é documentário: filme mostra a indústria de aumento de pênis nos EUA",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMW5rMDE4bDV5WGJlZW1mbVZEYlU0MklnLWFmUWhudkVWNkIwOFAxQ2V0b3dhbmxndEhXMHR6Qi15TURFSmRteWtBaGwzT3I3bUdJclNLZjNJcWNUakM4WUZJaXo2WFJ6dnhvWWZqVHVSX2xRbm1XWkhWUVJoZW94eDF2Y0NPbmVtWVBvbllpUjE1M1ZzSmVwUFFPZi1Gck8tS3R2ZTNLSlF0S2Q4RjRB0gG0AUFVX3lxTE92dTllU3B5b282NElJUW5xMFFTQTlpWXlqZ3lqTVV6V3IwT2E2aXdYdkY3S3F6ZGRGVWVJWk93ZjB0eGVlb2hlU3dQLUxnSkVPVmZpVk8wZFUtLVZBUkwzOXB1MVJ0T0dyVWhZM3BTWGxtdU4xaWN6c3BKSHB0TklIaEc4T2ZIYllLOE5IbVdJTHNrSWNIQXNfZzIxalFUTEVzbnNxckRVU19Yd2pGNWZfaXlzZw?oc=5",
+      "source": "Folha de Pernambuco",
+      "date": "2026-10-31",
+      "topics": [
+        "Indústria e investimentos"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.918Z"
+    },
+    {
+      "id": "31c330c4f583271e",
+      "title": "MEC reúne denúncias de violência política em locais de ensino",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQkptM0J2b3R5NlJjc2tTejlFUjZyZUoxZWV1cXBEeW1VdHpYeVdCdmVQWEo1aVdISlVEaHp2NWFabDZBSFgydVNmWHdZOFhUQ3RGNC0xQnd4RVZYQTcwOUhwbzZsUkE4aFFZbE4tR3NJaDQ4QVJtLXZFcWVuWFYxcVloZ3NlNHo4bURnM0tzMFNRZ2dmYXlFSkdQSlE4b003ZUNpRWZMQ2rSAawBQVVfeXFMTUJzMDM5M01YOEt3cW4wRVdyTlhXVGFMeVRGY2UxUW9rdE9fSEszLWtINFlQZF9kSlRLVWZnbnU3bnNVT2w1RHlqcE5HMmEtc3NXUnFNdXhZVHhRMGRKSWJWMldVdjRmSUFTSnZTUjc4QWRRcnk5ZUNlYTZLX3RKd2kyZk9UWkowRGY3aGJxQkctYWxvVFFUQWdXVXZLUERyeVJxQWZCNHNmc2FtVg?oc=5",
+      "source": "Folha de Pernambuco",
+      "date": "2026-11-01",
+      "topics": [
+        "Educação e desenvolvimento"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.918Z"
+    },
+    {
+      "id": "72bd0b65954466ec",
+      "title": "Anita Harley: Justiça encerra processo por dívida de elevador de mansão",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOTdyV2J3eU52VGl4U244OWVPc3VpTW1SZlV4dTJEOHVRclVBN1FYV2wwZkJjOTJLdEw2cVplRG1iU09YdFUtSW9oZHV2Y3RaLWQxMzloQVBXOVlIaV96VFRsMFpxZnVxMFhNdFJmUWtCblZ5Ti01RmtOVlZkanV3U1F0OWNrYVBGUk1NYkRNUjZIMEdEbUhtM1ljT0lJbzJ1LXhzdmdZWVh1ZknSAa8BQVVfeXFMTWpRODBfMzVCcnVjbzJMY0x3NDFBb2tuU1VjWVVQZ1NnRnNrYllBOXdNT2otSjBnRFlaTWFLUjRWNlljYkxUU0RpRENiNk9tTFF2UUdRa2Yzdkp2bklNa3Q4Yk9NMGt4N3BiUWVSbzFTVlpXX0VnODFqenZlT1g0RTIzc1BLd1BLR0ZuVk5vT0tIbG56bGNvNGZDZEk4TUFYMk93TVhiR0RpeXpvczVGSQ?oc=5",
+      "source": "Folha de Pernambuco",
+      "date": "2026-10-31",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.918Z"
+    },
+    {
+      "id": "7440525d388a86d7",
+      "title": "Na Fazenda do Piauí, Fonteles reduziu dívida, mas teve déficit em metade dos anos",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWktUTNzNm9UM21JcloteHFIRFkxRWFTNHpfSVV5dy02SEhCSEp2TjlZTHdYZUJUdFY3RUdnSW5YWGczTGJiTC1YMERCV0RmODZiZTdfV1lUa3J0aF9kZmdpNmpCUk0wdllpLVlBamdjOU45c25vYWsxN0cyNVRub1paNjRleTNsNklBTF9CbWQ5NWVtSFpyLWpjc2tDVzMwRHYtOUF6aGlNSmPSAa8BQVVfeXFMUGRHd1ZORlRQeUFVQnhpS0toLUc2dVlIaEpfZzRZV3VLVmNyeVZiRzRFRnFoaXVSckNHQm0zTVpHNnBNWjF2Y1lkRklKRnFya003QUY0V0Q4a3ZzVDRiaTZEUXEwUHd6MGx6MTBqeVFNSHlpNmVZb0E5dEhMbUtLM1dWeGF2S3Jqb0tDOEVfbmRxd1ZfV3Z0cGdhUlRuaHp3VzBSQkpYMF9aQ0cxSGRYUQ?oc=5",
+      "source": "Folha de Pernambuco",
+      "date": "2026-11-01",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.918Z"
+    },
+    {
+      "id": "7e5cf0166a2bb1f4",
+      "title": "China reforçará fiscalização do patrimônio e das relações dos membros do Partido Comunista",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT1dsU2FfcnZHdzd1ZEdheTUyZGVVR0hMZGIwRHVTOWVtVVVkZW9PWEl6WXNjeTM4ZzhpQ2Ezc3hpZURHb0M0MFBlUXkzczZNcnhtMmRZVm5uQWtyT1NPNGZ4dGVmX3JzRGY2NU13ZHpReVdMSkJoT21oRWRndXpWTGNIOUp3NzVqWHRxVnVmRzlYRWt5REMtZGhmNS1RWU14RTlyOWF4d3VFejNfMTR4aDVmNNIBtwFBVV95cUxORnk4WUZ3cUlDeW1uMUxTcmZyT25RZkFDek1YN3N2WmpWTjNNcXNIa1UwdmFKQVMzTndMazc5Y1V1TWh2cFJ1TlFvTXhudVVNeTZWS2wzZ2JnUTdLckJzLVQ2YU1xU2RVWkRLTm50Z2oxd3BJUlJCdnRod21zbWt4cGV5MGlWSDlKclh5UGRfSFBsNmhHQXNxUnEtUEFISTV5SGd2RlZkVVdGQkVBZVhSQ3hEUWtGcTg?oc=5",
+      "source": "Folha de Pernambuco",
+      "date": "2026-11-01",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.918Z"
+    },
+    {
+      "id": "e7e1a99fde205b5e",
+      "title": "Ação Popular pede suspensão de salário do senador Flávio Bolsonaro",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONVJLSlY3VUpwZHFaRVZhRk5vNW9BSzhOUkt6eWhsREFaQ1lmMDZva3hzUDIyN2xDZ1FYRnE2cEFwelN0RS1EVlgwRmVuQmdrdDB3ZTkwRnNoVi1KNW90YjBBQkJhMk5aeFlnd1FuUlRGUFZ1THZGdFl3WTJxSTBxU3U1VWgtRldIdkFJNGpqQ0lTdGtfdGJYNHhrWEJtNldnZ3RGSy1ibnNXZC1nTDBn0gGzAUFVX3lxTE9KNnhhT2JybnRyQXkwN3NaUVpxdkxYZjViT2IxNGV3TUxMZWlCZ1d5YWxLOWd0dFpQU3BIX004dUJjUVUySWdfa21hUGEzTU5acVJseUNJekY3U2JmeUxBcm5VRGZ0QjBWakJpcW5ycFlVdFdFdDZpX1BpQVF3V0hQQUVtT3VzYjNkUWtLOGVtZkVxdVVJc2xwUjZUSUdRaDZWS1BkR2tMSDBUd0s4cDRmeFI0?oc=5",
+      "source": "Folha de Pernambuco",
+      "date": "2026-10-31",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.919Z"
+    },
+    {
+      "id": "45843ce7b5e7af4b",
+      "title": "Reforma Tributária: Senado vai ouvir Fazenda e TCU antes de definir alíquota da CBS",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb1ZyTFozeXFBOEtUa1VDSGZjT2V3cVFxSG1ZVEFlbGVkeEhtdWZmaVhnY0pxamRmLS0zMm1IVXNLU1Y2NmZMVlo5LXR1Z0J0NVhZMXFQYWZtLTItZzBKMnNHZ01JRXcySEgzM0praFJFZk40bUpoakltNHJRZHZVUkxUSFVWM1J5UmlPQTFzVVdHQ2hUOTEzOU40em9uR3pxUDM4X01KNDBFQXA5a2Yw0gGzAUFVX3lxTE1Dd1YxNDNzM1dPSDVZd1FRSDB1bzh0SE5sb2I2M01XLXNsNkVkeHk1NzNva2JnUTNQWWlObWk0UmdSam5DeWZQRm15VmtZX3Z6NVZTNjc4VVpyU1MyQVUxbjI5QUFUeElERkpwY1dnSk8ycXlsRUlFSXpQWUZrSnQ0RzljU3FqWXNYWUFaYXBwbzNyTENKVUNZUWNUeC0weWltU2RyWlFub0dtUWlveWpVZ1NF?oc=5",
+      "source": "Folha de Pernambuco",
+      "date": "2026-10-31",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.919Z"
+    },
+    {
+      "id": "7c14d888dad154af",
+      "title": "Ministério do Trabalho recebe mais de 4,3 mil denúncias de assédio eleitoral em apenas três dias",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWkRrRm5pdmFubGRkT1A5RlU2N0Z6SndLN0FMeVNNdXNNMThNVXNkM2tfRFhmRWhxckpIbXhXeVpCdlZ1OFBxemFZUlF2QzFmY3VBNlZMQmZQZW5xbGNITWladXVsdGhjRmdzMzdpUEt4RFlTVVJaOXItOEpmejJkQjhHRWZJanNXN0pzcWhfMDZKcmI3VHk3WUdHTG93SnpUOGIydnNHWG9acWxSa1HSAbIBQVVfeXFMT0hMQWhQS0Q0VzJvbG9pT1BFUmZlMTJ4bHNGTkxZQUxKaGxWT3RWZEZwdG9tUkJfQ1JNQUVQamxieE9ubUcwQ0R6Z2J5akxQLVh1bVB6VTE5ME9iVVBNakdJeVdMZWMtWlFNOGVmRjhqR25MSFUwLWxYRktSc040UnhQeDFQRV9MNGI3dGdIVEljRWZ0ZG9fbm5vQ3JPTXlZRlB2Q0RzXzhDWW85bzBkRThRZw?oc=5",
+      "source": "Folha de Pernambuco",
+      "date": "2026-10-31",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.919Z"
+    },
+    {
+      "id": "18fe0f40434f222e",
+      "title": "Mônica Fonseca é expulsa de A Fazenda após briga com Mayk",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd3hmV1NEZjRPLWdwY2pWVlhGVTJGbDdFUjZ1S2hjdWU2LVA2aHdfeXpULWppX1VNRUdCRWNJRzY4SWFMV2NKNVY1dmpRY1VCMUVyR3pNRnJOaFVVY2xXY2VUYVI4TVpIaVdZR2t4TF9nNXU4SFlHQmVKTEVzZHl1RW96M2J6U1o3aE04N253ODVTR1ExbGhtQTJiUUtTSEtIemfSAacBQVVfeXFMT25ob0w2QlVRRkdQeVo3eVl1bXliRTdTTXB0bmtYNzNKSEs0Yk1JbWlveUlwS3BxdDN1TVdUN2dQX2QxalVBRWNuUkYtelBhempLVkpaRTAxRDAwUDUxQm8zRGdzMDRaVU1VcjM3UjBpYUlnN3JKaEFEZWlXSkdGcjdMRUFaWmpoSWU5cFJUV0pxOGFxQWo3dzhDMHBlMm1iRlU3S0M5T0k?oc=5",
+      "source": "Folha de Pernambuco",
+      "date": "2026-10-31",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:53.920Z"
+    },
+    {
+      "id": "7968b9af820220b6",
+      "title": "Central banks take a breather, though more hikes are to come",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV0g2T005bVN1RWZoZGN4MHc5dU5naW5rWjFTSFo1MWUzOGdueDRMMnI0WGt2aTJTZDJSaHlPc2tweUFHTXZUU3A2YjRLRFdtU0ZOWmxtNVFQeW1zc2R3ZFZ2TXU0SnJkVFVfWmc0aGc3ZVIxMzlaWFZSZTZYUU1teG5aVmY4Q3lyWEJwVVFzZUtCZzdRN2c?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-30",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.014Z"
+    },
+    {
+      "id": "8720d9bb23fc0660",
+      "title": "Canadian dollar extends monthly gain as higher oil prices raise inflation risk",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX1pUUGVTZUNPbllLVm9EbGdSbkxsUUpYZUo4bXFvYjRnaDlMNnJiYzNsZkRERnJjc0JhWGt2WTYtY2JzeEZxY1MwdEVTbXJEaFhlSERnaUhabXVCTWpSaE9PSkRwdVVMT0NkWE96ZDdLNV9TbU5KVGlqQ0JrRWNXWXAzUl85WHVuMEFQb2JiWnE3aHp0aDhPdkwzeDZleGg1d2VKc3h2d1h6LTEyckdoMURhaU4zSV82TE1YVw?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-30",
+      "topics": [
+        "Juros e inflação",
+        "Energia e clima"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.014Z"
+    },
+    {
+      "id": "e1cff7556daa039f",
+      "title": "Mexico economy beats forecasts in third quarter, cooling rate-cut pressure",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTVhhYVdMQ2RwaEJOMmVJUnhTTXZLZzdNVzl2cTlueWRodkpoTm9aYU5qZnBIanVOV0xMN1JhVHl0OXFWbTZ1WkNVYkt5QWZYTjlwdHJhZUhCOGZjVkJJNmpiVmpWMnVhSWw5aHQxR1Q3T0FXQVRkbExfbDF3QUpGTXJaRS0tT0h4ODJIOHhJUWpzc3M0M3BveEhCdVp1ZU9ndjFIY1hDZDc?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-30",
+      "topics": [
+        "Atividade econômica"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.015Z"
+    },
+    {
+      "id": "466334b965dabe7f",
+      "title": "German inflation slows more than expected in October",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYlNSUkFvel9FT3U0d0NSRFhuQTM0dGhEdzI4bEFIRUIzdms5YXJCTEV3a1BXWElPZnVfNGd2b2l3TDBoRDZrWHY0Vy0wS1hCUUJqQ3p2MzlzUnJfTVpWYWxabl8xYjVZUFM1MDFsWFhHNTZZTENGSTdqMURfOUJEQQ?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-30",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.016Z"
+    },
+    {
+      "id": "c43988d384466583",
+      "title": "ECB governors see December hike likely followed by pause, sources say",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMXJsZnJoaDBVczhVVHlHVktscUlEVzhTcGtnX25CS2F4c2FHVGpxOE02UHBudjRiRm02UmV6anhHX05mLWJSbHQ0ZmJqQV9fVDU0eVhmNXZjX0gtYXNWQzlrcXR1bHB5THJxVXVjWGM3bjN5VUdOTEJzUktnWHcyWUo2ZUIteER2MUVtb1VYaVU4NUQ1VWNDbU5aMy1URWtndFNEcmp3azNBRDNhdlZIa2FyeUlzS1UxU3V4Y0ln?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-29",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.016Z"
+    },
+    {
+      "id": "e996b134597062f3",
+      "title": "Brazil interest burden climbs to 9% of GDP, highest since 2016",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNm9QUjJVdnFTZndQcW1tSUhvelRvc1BCQWlxMHhkRVUyTGkyWlhJcEJBcmVLX29VMzhtemllek9xLVhyZW1WWnlBT0xOYmFXckpBSndSZ0tpZDhVVzF3X0FXUFdxRTJmU2xXY1ZKVV8tZnRUaU1XdjVvb1ZTM3pjMGx1elBiRnlMWXJLTElGX2pDYm5uYV9MdUFKempKSDIwUFZORXc3M0k?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-29",
+      "topics": [
+        "Atividade econômica"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.016Z"
+    },
+    {
+      "id": "ed145d261a2cd1cb",
+      "title": "In first budget, UK's Healey tries to shelter households from economic storms",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTWt5eEVYVG40UkFvRGh3TmhBeFAzMDdOdVp1aW5kekhwRFUzRWxJdTVPRl8xZUt5QVl5bm9xbXczdE5DMHlpdE5JSWR6eEZGREI5VnU0TVFreVdyZ3lJQ2lRQnJqTjQydFphUmZaOFg3YlNRdlBsZ0s3TGVaQndkby16NkZMU3I1Q0FucHgyekp0MjFsWmI1YXBkMlpNRjVFNFlSVTJDeFhQQlowaHVzeQ?oc=5",
+      "source": "Reuters",
+      "date": "2026-10-28",
+      "topics": [
+        "Fiscal e tributação",
+        "Crédito e consumo"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.016Z"
+    },
+    {
+      "id": "22bd1576f3fdf9d4",
+      "title": "Democratic wins would shift Congress' trade debate but fall short of US tariff rollbacks",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObVJlTmFuVEh3WkZZZS12S0NPTjRoamIzUVJCNURKWHl6QzR5eHpjT0pobGt0b0ZSLWw0TE1seWV0S1ZLRjJOb1ByZWVCVmJEcXRlZ29kbzA0X0ppTmVTZ1M4cHVSRnhWMy1USGxhTmtROFU0V3luU1lsWTlkeVFqU3BwUXlQaTU2NEpPNC1xRTE0TlFyRjJYd1ZCNlhsZHFiaFpFbGNlem9pdm0teVZaUExyY2x6QTFnWUQzamdDYlpVT0hlUXdfY1h0bks0Zw?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-01",
+      "topics": [
+        "Comércio exterior"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.016Z"
+    },
+    {
+      "id": "758f1694746844b1",
+      "title": "South Korea exports nearly double in October on AI investment boom",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTEw3WmpfUE9XNlpDeFd4LUpBenRHZVpiTVpFRDZfakN2T29CaHE4emNXQ0s0VzFDZTJTeDlXVkJtV0FSVEpwblJEVWZoWEZ4eEFzNDA5eHh0TGo4X2ZFX3hlYzljRl9TTDhPNkE1a05aNjNPU19Kb1lGbmV1UWw0dUtNZk9HS2JENWx5dDJyNWgxSGRWMzBLaGxMazJRbWxGbVBFbWNJbVlzbHkzTk05RDFGMnBzcUh4V2VqSmhTZmhkUQ?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-01",
+      "topics": [
+        "Indústria e investimentos",
+        "Comércio exterior"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.016Z"
+    },
+    {
+      "id": "4d7d61a7b0aaa2fe",
+      "title": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVRNX1Y5b0xXX3dlMU1QX2lRbVkxbkJYSU9SUVdxUFlXQ2hGcjRpRlVIbklCeTlZa1d2VnNOQWFaaVN0NHJVcnJSRVhUSngyVmcxdzlsZVpwSm1wbmduTGpNbXkwWEhKbGZQdURzZ0c0UHl2S28zLUxjbDdSUkdzZTFnMmtubVlvbmFVMHlsX3BvOVpLa2NqcWozZTJUWlhnUWUxYXFn?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-01",
+      "topics": [
+        "Energia e clima"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.016Z"
+    },
+    {
+      "id": "0197612b381b4069",
+      "title": "Oil majors resist pressure to invest in new refineries as fuel prices keep rising",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUlhMTUN5a3FidzFHcGxBZmZJQlFKcG42b0VjeHJXSlA2aDVBdW56ZWo1dmdTQVpOdWVkRkFCSnNMd3M2QW14MW1iVlB5OHp4TS1QbXRXRFV6dFJOUWFvUEtwUWY5XzdWWENVNUpDYWhKM21NMGNBTHY4SEtKTWpYcXVMOEE?oc=5",
+      "source": "Financial Times",
+      "date": "2026-11-01",
+      "topics": [
+        "Energia e clima"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.047Z"
+    },
+    {
+      "id": "eb53ebd43370be36",
+      "title": "Bond investors sit out ‘most consequential’ US midterm elections in years",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNM1RENmdtcU1BOV8yNUtadjZpZmkyeDFzUE12X28tRXdHTGVLZkFkOU55eHRHMW5oMjlocWVpNEJwWllKVnpIN1U5RVBlMDFKUGhCU0JZMng4d01rckZUeGphOVhkQVFocGphNndpaFpoX3ItTXpHb3o2TG1UWExBOXJxSjI?oc=5",
+      "source": "Financial Times",
+      "date": "2026-11-01",
+      "topics": [
+        "Indústria e investimentos"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.048Z"
+    },
+    {
+      "id": "6f5621019b425ee7",
+      "title": "Junk debt rout sparks ‘bloodbath’ for credit investors",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY05sR3JWdGJzWDE5U2J3TVpBb1RoSklOd0wwMW56WGdEYVh3NjBYNEZZUkFGeW8tTTFiMlg5VEJQcVV0Q3dWOHRsaURNR1J3RUd5SjdXdVYyVVpKMHd1M3pfUDd4ckVtVXhncEJaQUF2X1YyYk9hT05iNFRkemdER0RETE0?oc=5",
+      "source": "Financial Times",
+      "date": "2026-11-01",
+      "topics": [
+        "Fiscal e tributação",
+        "Indústria e investimentos",
+        "Crédito e consumo"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.048Z"
+    },
+    {
+      "id": "b8211b48570a2934",
+      "title": "Germany fails to meet gas storage target as winter approaches",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRXBkeFdDeFV0MV9SdEh3Um1RbE5hbERrZ3FwYm42eGNHRTkzU2F1RHVuZncxQ0Vaa1hVYWVNc3Mtc182VzNqRnJacl9aZXdRbUpnMlFZclVMRkpZeW1QZWF1NVhYVFdqMEs4N1ZUSzFLU2E3aEVSTmRYQzZ0WEJsRnRDZ3E?oc=5",
+      "source": "Financial Times",
+      "date": "2026-11-01",
+      "topics": [
+        "Energia e clima"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.048Z"
+    },
+    {
+      "id": "a3940d102096ed7b",
+      "title": "Unions hit out after John Healey signals delay to UK youth minimum wage pledge",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdFNYaFpaenVaaVVVYWNhdnpNejhsYUJsLXJqQ0NCc2diN2dNS29nMEdWTWZSSk9ORWRpLWdkakMzS2pOS2M4N0ZQMkJRQUpPaW1DSkhmdVpNYlRqbDdVNTF0S2JzbzctQ2ZiM0xYS2hWUFJfN2tFb2RNaEZQSll3Wnl2NGk?oc=5",
+      "source": "Financial Times",
+      "date": "2026-11-01",
+      "topics": [
+        "Emprego e renda"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.049Z"
+    },
+    {
+      "id": "816251ea0484e94a",
+      "title": "GDP based on PPP, share of world",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jb1FuQmhTU0dJbnQwN2YtOTg3UndWVjJ3Nm5kLUtCNzVob0ZPOFR6V1I2b1A1UTRUcFJOYUlleERZVGNwVC00UkRXbldDZXk3UGNMTHdKcDBPX2VGRkw2S2tfSQ?oc=5",
+      "source": "FMI",
+      "date": "2026-10-30",
+      "topics": [
+        "Atividade econômica"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.350Z"
+    },
+    {
+      "id": "1be7600cc7a75912",
+      "title": "World Economic Outlook, October 2026: Key Facts",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0yOExJWktXSXNzZGVSZUZiWmJBakhNT0hzT1NEc25JSDFNQjQ0bWNRS18wdWJZRlhGNjRMbHBONk4wRVZSWi02QXdQTjBNeDdpVTlxdjFRRThlSlp6?oc=5",
+      "source": "FMI",
+      "date": "2026-10-22",
+      "topics": [
+        "Atividade econômica"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.351Z"
+    },
+    {
+      "id": "69cc86c5bc363fa0",
+      "title": "California’s billionaire tax is dividing Democrats",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVGNadHNhenhON3NRdXl5TXhLR1JSaWpJcG53NE5yNmx3YmVHTzFYUVpIaXd5ZVJUajVZQUFHVmZ6Wk1TaWozVm1Senc2NXZ1RXZpU1BickUtMi1aZzQ2OXJ2VDV4VkNIODlhUWNmaXVkWW8yTHVneE1pZEZkNks3V1pTSTRnTFc5eUF3RlUzS2c4NmJULUh2MzV5MTVRdVRqWGc?oc=5",
+      "source": "The Economist",
+      "date": "2026-10-31",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.470Z"
+    },
+    {
+      "id": "e10fa50e38ea8f37",
+      "title": "Dog wedding chauffeurs and doggy roasts: The rise of the puppy experience economy",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDcU9iWjRJdXAxQWVKRWgxcWVmUWRPRTdYMkhRaW91eTVqa1hNRmNMNFFuZlZZdzdPYVZxSVpINVMyamljNHNLMy1fbVFEQWlkZUVHLVFLTTNNX0U?oc=5",
+      "source": "BBC Business",
+      "date": "2026-11-01",
+      "topics": [
+        "Atividade econômica"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.493Z"
+    },
+    {
+      "id": "077c9a07b37570f4",
+      "title": "Pub landlords call for VAT help in John Healey's first Budget",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KM1htcnpTbFdyYm9RdUVqdDQxNUsxU0hWZTluUGFudWd5V3VTdmNLaXQtVjdKYmdaenk3ZUpkOXk1U2pKS1l5YmxlMEVrdVdocGxmYlFpYmNRa0U?oc=5",
+      "source": "BBC Business",
+      "date": "2026-10-27",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-01T16:32:54.493Z"
     }
   ],
   "collectionStatus": "ok",
@@ -26586,57 +28010,57 @@
       "source": "Poder360",
       "scope": "domestic",
       "status": "ok",
-      "matched": 36,
-      "added": 7
+      "matched": 33,
+      "added": 10
     },
     {
       "source": "Diário de Pernambuco",
       "scope": "domestic",
       "status": "ok",
-      "matched": 15,
-      "added": 5
-    },
-    {
-      "source": "O Globo",
-      "scope": "domestic",
-      "status": "ok",
-      "matched": 35,
-      "added": 10
+      "matched": 16,
+      "added": 4
     },
     {
       "source": "Valor Econômico",
       "scope": "domestic",
       "status": "ok",
-      "matched": 51,
+      "matched": 61,
       "added": 24
     },
     {
-      "source": "Folha de Pernambuco",
+      "source": "O Globo",
       "scope": "domestic",
       "status": "ok",
-      "matched": 18,
-      "added": 11
+      "matched": 26,
+      "added": 9
     },
     {
       "source": "JC",
       "scope": "domestic",
       "status": "ok",
-      "matched": 19,
-      "added": 6
+      "matched": 20,
+      "added": 7
+    },
+    {
+      "source": "Folha de Pernambuco",
+      "scope": "domestic",
+      "status": "ok",
+      "matched": 12,
+      "added": 9
     },
     {
       "source": "Reuters",
       "scope": "international",
       "status": "ok",
-      "matched": 66,
-      "added": 14
+      "matched": 63,
+      "added": 10
     },
     {
       "source": "Financial Times",
       "scope": "international",
       "status": "ok",
-      "matched": 29,
-      "added": 8
+      "matched": 30,
+      "added": 5
     },
     {
       "source": "Federal Reserve",
@@ -26649,22 +28073,22 @@
       "source": "FMI",
       "scope": "international",
       "status": "ok",
-      "matched": 13,
-      "added": 1
+      "matched": 27,
+      "added": 2
     },
     {
       "source": "The Economist",
       "scope": "international",
       "status": "ok",
-      "matched": 7,
-      "added": 0
+      "matched": 9,
+      "added": 1
     },
     {
       "source": "BBC Business",
       "scope": "international",
       "status": "ok",
-      "matched": 35,
-      "added": 4
+      "matched": 29,
+      "added": 2
     },
     {
       "source": "BCE",
