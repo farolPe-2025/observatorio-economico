@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T13:14:01.232Z",
-  "lastCollection": "2026-11-03T13:14:01.232Z",
+  "generatedAt": "2026-11-03T13:20:43.257Z",
+  "lastCollection": "2026-11-03T13:20:43.257Z",
   "schedule": "07:00 · America/Recife",
   "items": [
     {
@@ -29443,7 +29443,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Valor Econômico, 03/11/2026"
     },
     {
       "title": "Comércio com Argentina persiste, apesar de rusgas entre presidentes",
@@ -29464,7 +29465,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Valor Econômico, 03/11/2026"
     },
     {
       "title": "COP31 aposta no desperdício zero e na economia circular",
@@ -29485,7 +29487,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Valor Econômico, 03/11/2026"
     },
     {
       "title": "Ideias de André Lara Resende levadas a Lula preocupam equipe econômica",
@@ -29506,28 +29509,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-10-31",
-      "printPage": "A8"
-    },
-    {
-      "title": "Proposta é ameaça para inflação e juro de longo prazo, dizem economistas",
-      "source": "Valor Econômico",
-      "date": "2026-10-31",
-      "topics": [
-        "Fiscal e tributação",
-        "Juros e inflação"
-      ],
-      "page": "A8",
-      "id": "0bcc96cf53cb4625",
-      "kind": "noticia",
-      "url": null,
-      "language": "pt",
-      "scope": "domestic",
-      "region": "Brasil",
-      "origin": "Referência enviada pelo editor · Valor Econômico, 31/10/2026, p. A8",
-      "titleVerified": true,
-      "verification": "user-screenshot",
-      "printEdition": "2026-10-31",
-      "printPage": "A8"
+      "printPage": "A8",
+      "captureOrigin": "Referência enviada pelo editor · Valor Econômico, 31/10/2026, p. A8"
     },
     {
       "title": "Lula busca nomes heterodoxos para Copom e mira Selic menor",
@@ -29548,7 +29531,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-10-31",
-      "printPage": "A9"
+      "printPage": "A9",
+      "captureOrigin": "Referência enviada pelo editor · Valor Econômico, 31/10/2026, p. A9"
     },
     {
       "title": "Aquecimento global acelera e exige cortes drásticos de CO₂",
@@ -29567,7 +29551,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Valor Econômico, 03/11/2026"
     },
     {
       "title": "A taxa básica de juros e o IVA",
@@ -29589,7 +29574,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Valor Econômico, 03/11/2026"
     },
     {
       "title": "Sonâmbulos do ajuste fiscal",
@@ -29611,7 +29597,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Valor Econômico, 03/11/2026"
     },
     {
       "title": "Com piora de cenário pós-eleição, cresce aposta de Selic estacionada",
@@ -29631,27 +29618,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
-    },
-    {
-      "title": "Ofertas de ações devem ser empurradas para 2027, com incerteza sobre ajuste fiscal",
-      "source": "O Globo",
-      "date": "2026-11-03",
-      "topics": [
-        "Fiscal e tributação",
-        "Indústria e investimentos"
-      ],
-      "id": "2b29e618ab97aea4",
-      "kind": "noticia",
-      "url": null,
-      "language": "pt",
-      "scope": "domestic",
-      "region": "Brasil",
-      "origin": "Referência enviada pelo editor · O Globo, 03/11/2026",
-      "titleVerified": true,
-      "verification": "user-screenshot",
-      "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Valor Econômico, 03/11/2026"
     },
     {
       "title": "Infraestrutura e produtividade desafiam Lula 4",
@@ -29673,7 +29641,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · O Globo, 03/11/2026"
     },
     {
       "title": "Seguro de imóvel avança com MCMV",
@@ -29693,7 +29662,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Valor Econômico, 03/11/2026"
     },
     {
       "title": "Canopus chega a Pernambuco",
@@ -29713,7 +29683,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Folha de Pernambuco, 03/11/2026"
     },
     {
       "title": "Pacote de mudanças para MEI deve impulsionar pequenos negócios",
@@ -29733,7 +29704,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Folha de Pernambuco, 03/11/2026"
     },
     {
       "title": "Subvenção da cana deve chegar a cerca de 17 mil produtores",
@@ -29753,7 +29725,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Folha de Pernambuco, 03/11/2026"
     },
     {
       "title": "Mais mangas do Vale para os EUA",
@@ -29773,7 +29746,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Folha de Pernambuco, 03/11/2026"
     },
     {
       "title": "Serasa: inadimplência bate recorde e atinge 84,2 milhões de pessoas",
@@ -29792,7 +29766,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Folha de Pernambuco, 03/11/2026"
     },
     {
       "title": "BNDES abre inscrições para startups",
@@ -29812,7 +29787,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Folha de Pernambuco, 03/11/2026"
     },
     {
       "title": "Em Paris, Raquel discute modernização dos ônibus",
@@ -29832,7 +29808,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · JC, 03/11/2026"
     },
     {
       "title": "Desemprego no trimestre é o menor desde 2012",
@@ -29851,7 +29828,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · JC, 03/11/2026"
     },
     {
       "title": "Sebrae inaugura unidade em Carpina",
@@ -29871,7 +29849,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · JC, 03/11/2026"
     },
     {
       "title": "Nova rota liga Suape aos EUA, México e Colômbia",
@@ -29891,7 +29870,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · JC, 03/11/2026"
     },
     {
       "title": "Raquel Lyra articula investimentos",
@@ -29911,7 +29891,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Diário de Pernambuco, 03/11/2026"
     },
     {
       "title": "Temporada de cruzeiros anima turismo",
@@ -29931,7 +29912,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Diário de Pernambuco, 03/11/2026"
     },
     {
       "title": "Risco fiscal e incertezas colocam economia de Pernambuco sob ameaça",
@@ -29951,7 +29933,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-02",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Diário de Pernambuco, 02/11/2026"
     },
     {
       "title": "Suape lança programa de combate ao assédio e de proteção às mulheres",
@@ -29970,7 +29953,8 @@
       "titleVerified": true,
       "verification": "user-screenshot",
       "printEdition": "2026-11-03",
-      "printPage": null
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · Diário Oficial, 03/11/2026"
     },
     {
       "id": "6ecf6ffb9b72ea75",
@@ -30242,7 +30226,11 @@
       "origin": "Descoberta automática · índice público",
       "titleVerified": true,
       "kind": "noticia",
-      "discoveredAt": "2026-11-03T13:14:00.108Z"
+      "discoveredAt": "2026-11-03T13:14:00.108Z",
+      "printTitle": "Ofertas de ações devem ser empurradas para 2027, com incerteza sobre ajuste fiscal",
+      "printEdition": "2026-11-03",
+      "printPage": null,
+      "captureOrigin": "Referência enviada pelo editor · O Globo, 03/11/2026"
     },
     {
       "id": "6356850519e375f5",
@@ -30430,7 +30418,11 @@
       "origin": "Descoberta automática · índice público",
       "titleVerified": true,
       "kind": "noticia",
-      "discoveredAt": "2026-11-03T13:14:00.130Z"
+      "discoveredAt": "2026-11-03T13:14:00.130Z",
+      "printTitle": "Proposta é ameaça para inflação e juro de longo prazo, dizem economistas",
+      "printEdition": "2026-10-31",
+      "printPage": "A8",
+      "captureOrigin": "Referência enviada pelo editor · Valor Econômico, 31/10/2026, p. A8"
     },
     {
       "id": "fc0dcfa9f7abe08d",
@@ -31802,6 +31794,40 @@
       "titleVerified": true,
       "kind": "noticia",
       "discoveredAt": "2026-11-03T13:14:00.984Z"
+    },
+    {
+      "id": "a80f0520ac58196b",
+      "title": "Expectativa para a Selic no fim de 2026 sobe de 13,25% para 13,50%",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcWlhWERQUHV5OWtVRWlHQk1VSWI3M1Nvc3NDMFZMWUdZcUpackUwTVpkVTJGTzlwU3dhTzNoVmpuTDBlVG56RkttM0hXbVF5XzZxQkF5b1ZZVnBpNnByTjVoMmh3NXFOdlRuZDR2TmFLYlJ2UTFsSGkzSXVKaXpFOTRXUEJydURieFFEalhGUGx5eHNiVkQzZEZCTV9OX1RxdEhDRTNmcHk5ajdrcFRUZzA4bDlkdVp6bUZSbVJROHVvOFpUcHdGTUZpZw?oc=5",
+      "source": "Diário de Pernambuco",
+      "date": "2026-11-03",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-03T13:20:42.040Z"
+    },
+    {
+      "id": "5fc16ca8c1a065e6",
+      "title": "Ministro da Fazenda diz que alíquota do Imposto Seletivo deve ser mantida e MP pode ser enviada hoje ao Congresso",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRTNWYmdUc1JjRmlqcHdXY3hDY0trblJVWlVVT0l1dTNOVEQ0SFhweENtM2dYc2lJYWljMHFRTTBWUWlXOFRwemRmc2loMDJmODd2MlJNUTIzbXJQMmtuanFjOHVhLWhhZ3NOZW83OVo3LWVXd05oV2xEYVlMbkJqc1hIR1hmb0lLRFl4cWo5b9IBngFBVV95cUxQR2FiUGdlaHA3MkJoMTFUUGJ2Vk5yei1CSnpIMDJzSm9aZ1l4V3hjdnNQQnd6ejNzRWl6ZUdfdXBIOWQ4NXhCNFZHM0FjcFZNRERaRWFHOE93c3JENTltdW5RNFNheFhHZGduTVZTU3g5aVNFaUx5THJsRTQ1Z0FWNW5mTlotOGFTZGVNYTFzcWZ5dXUybUNSWlhwa2tsQQ?oc=5",
+      "source": "O Globo",
+      "date": "2026-11-03",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-03T13:20:42.047Z"
     }
   ],
   "collectionStatus": "ok",
@@ -31811,56 +31837,63 @@
       "scope": "domestic",
       "status": "ok",
       "matched": 22,
-      "added": 6
+      "added": 0
+    },
+    {
+      "source": "Valor Econômico",
+      "scope": "domestic",
+      "status": "ok",
+      "matched": 41,
+      "added": 0
     },
     {
       "source": "Diário de Pernambuco",
       "scope": "domestic",
       "status": "ok",
-      "matched": 15,
-      "added": 6
+      "matched": 16,
+      "added": 1
     },
     {
       "source": "O Globo",
       "scope": "domestic",
       "status": "ok",
       "matched": 26,
-      "added": 14
-    },
-    {
-      "source": "Valor Econômico",
-      "scope": "domestic",
-      "status": "ok",
-      "matched": 42,
-      "added": 18
-    },
-    {
-      "source": "Folha de Pernambuco",
-      "scope": "domestic",
-      "status": "ok",
-      "matched": 17,
-      "added": 14
+      "added": 1
     },
     {
       "source": "JC",
       "scope": "domestic",
       "status": "ok",
       "matched": 16,
-      "added": 7
+      "added": 0
     },
     {
-      "source": "Reuters",
-      "scope": "international",
+      "source": "Folha de Pernambuco",
+      "scope": "domestic",
       "status": "ok",
-      "matched": 58,
-      "added": 23
+      "matched": 17,
+      "added": 0
     },
     {
       "source": "Financial Times",
       "scope": "international",
       "status": "ok",
       "matched": 32,
-      "added": 13
+      "added": 0
+    },
+    {
+      "source": "Reuters",
+      "scope": "international",
+      "status": "ok",
+      "matched": 57,
+      "added": 0
+    },
+    {
+      "source": "FMI",
+      "scope": "international",
+      "status": "ok",
+      "matched": 13,
+      "added": 0
     },
     {
       "source": "Federal Reserve",
@@ -31870,10 +31903,10 @@
       "added": 0
     },
     {
-      "source": "FMI",
+      "source": "BBC Business",
       "scope": "international",
       "status": "ok",
-      "matched": 14,
+      "matched": 24,
       "added": 0
     },
     {
@@ -31882,13 +31915,6 @@
       "status": "ok",
       "matched": 8,
       "added": 0
-    },
-    {
-      "source": "BBC Business",
-      "scope": "international",
-      "status": "ok",
-      "matched": 23,
-      "added": 6
     },
     {
       "source": "BCE",
