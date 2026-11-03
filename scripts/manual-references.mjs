@@ -4,10 +4,10 @@ export function mergeManualReferences(data,references){
  const known=new Map(data.items.map(i=>[referenceKey(i),i]));let added=0,enriched=0;
  for(const r of references){
   if(!r.title||!/^\d{4}-\d{2}-\d{2}$/.test(r.date)||!Array.isArray(r.topics))throw Error('Referência manual inválida');
-  const source=r.source||'Valor Econômico',origin='Referência enviada pelo editor · Valor impresso, '+r.date.split('-').reverse().join('/')+(r.page?', p. '+r.page:'');
-  const item={...r,id:crypto.createHash('sha256').update(source+r.title).digest('hex').slice(0,16),source,kind:'noticia',url:null,language:'pt',scope:r.scope||'domestic',region:r.region||'Brasil',origin,titleVerified:true,verification:'user-screenshot',printEdition:r.date,printPage:r.page||null};
+  const source=r.source||'Valor Econômico',origin='Referência enviada pelo editor · '+source+', '+r.date.split('-').reverse().join('/')+(r.page?', p. '+r.page:'');
+  const item={...r,id:crypto.createHash('sha256').update(source+r.title).digest('hex').slice(0,16),source,kind:'noticia',url:r.url||null,language:'pt',scope:r.scope||'domestic',region:r.region||'Brasil',origin,titleVerified:true,verification:'user-screenshot',printEdition:r.date,printPage:r.page||null};
   const existing=known.get(referenceKey(item));
-  if(existing){existing.printEdition=r.date;existing.printPage=r.page||null;existing.captureOrigin=origin;if(!existing.summary)existing.summary=r.summary;enriched++;continue}
+  if(existing){existing.printEdition=r.date;existing.printPage=r.page||null;existing.captureOrigin=origin;if(!existing.summary)existing.summary=r.summary;if(!existing.url&&r.url)existing.url=r.url;enriched++;continue}
   data.items.push(item);known.set(referenceKey(item),item);added++;
  }
  return {added,enriched};
