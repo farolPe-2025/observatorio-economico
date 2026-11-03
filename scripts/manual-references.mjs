@@ -7,6 +7,7 @@ export function mergeManualReferences(data,references){
   const source=r.source||'Valor Econômico',origin='Referência enviada pelo editor · '+source+', '+r.date.split('-').reverse().join('/')+(r.page?', p. '+r.page:'');
   const item={...r,id:crypto.createHash('sha256').update(source+r.title).digest('hex').slice(0,16),source,kind:'noticia',url:r.url||null,language:'pt',scope:r.scope||'domestic',region:r.region||'Brasil',origin,titleVerified:true,verification:'user-screenshot',printEdition:r.date,printPage:r.page||null};
   const existing=known.get(referenceKey(item));
+  if(existing&&r.printTitle){const duplicateKey=referenceKey({source,title:r.printTitle});const duplicate=known.get(duplicateKey);if(duplicate&&duplicate!==existing&&!duplicate.url&&duplicate.verification==='user-screenshot'){data.items=data.items.filter(x=>x!==duplicate);known.delete(duplicateKey)}existing.printTitle=r.printTitle}
   if(existing){existing.printEdition=r.date;existing.printPage=r.page||null;existing.captureOrigin=origin;if(!existing.summary)existing.summary=r.summary;if(!existing.url&&r.url)existing.url=r.url;enriched++;continue}
   data.items.push(item);known.set(referenceKey(item),item);added++;
  }
