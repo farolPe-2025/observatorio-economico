@@ -241,14 +241,15 @@
     "page": "A8"
   },
   {
-    "title": "Proposta é ameaça para inflação e juro de longo prazo, dizem economistas",
+    "title": "Proposta de Lara Resende é ameaça para inflação e juro de longo prazo, dizem economistas",
     "source": "Valor Econômico",
     "date": "2026-10-31",
     "topics": [
       "Fiscal e tributação",
       "Juros e inflação"
     ],
-    "page": "A8"
+    "page": "A8",
+    "printTitle": "Proposta é ameaça para inflação e juro de longo prazo, dizem economistas"
   },
   {
     "title": "Lula busca nomes heterodoxos para Copom e mira Selic menor",
@@ -300,13 +301,14 @@
     ]
   },
   {
-    "title": "Ofertas de ações devem ser empurradas para 2027, com incerteza sobre ajuste fiscal",
+    "title": "Com incerteza sobre ajuste fiscal, empresas adiam ofertas de ações para 2027",
     "source": "O Globo",
     "date": "2026-11-03",
     "topics": [
       "Fiscal e tributação",
       "Indústria e investimentos"
-    ]
+    ],
+    "printTitle": "Ofertas de ações devem ser empurradas para 2027, com incerteza sobre ajuste fiscal"
   },
   {
     "title": "Infraestrutura e produtividade desafiam Lula 4",
