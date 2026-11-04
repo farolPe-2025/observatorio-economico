@@ -1,5 +1,27 @@
 'use strict';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),fold=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+
+// Indicadores de trabalho: sugestões por palavras-chave, não conclusões causais.
+const noteRules=[
+ ['IBCR / atividade',/\bibcr\b|atividade economica|\bpib\b|crescimento economico/i,/selic|juros|inflacao|investimento|consumo|producao industrial/i],
+ ['PIX',/\bpix\b|pagamentos instantaneos/i,/meios de pagamento|pagamentos digitais/i],
+ ['Balança comercial',/balanca comercial|exportac|importac|comercio exterior|comercio internacional/i,/tarifa|cambio|dolar|porto|commodit/i],
+ ['PIM / indústria',/\bpim\b|producao industrial|industria de transformacao/i,/industria|industrial|fabrica|siderurg|petroquim/i],
+ ['PMC / comércio',/\bpmc\b|comercio varejista|vendas do varejo/i,/varejo|comercio|consumo das familias|credito ao consumidor/i],
+ ['PMS / serviços',/\bpms\b|volume de servicos|pesquisa mensal de servicos/i,/setor de servicos|turismo|hospedagem|transporte/i],
+ ['Novo CAGED',/\bcaged\b|emprego formal|carteira assinada/i,/contratac|demisso|mercado de trabalho/i],
+ ['Empresas',/abertura de empresas|fechamento de empresas|saldo de empresas|mapa de empresas/i,/empreendedor|falencia|recuperacao judicial/i],
+ ['Inadimplência',/inadimplen|superendivid/i,/endividamento|credito|renegociacao de dividas/i],
+ ['Municípios de Pernambuco',/\bpernambuco\b|\brecife\b|\bcaruaru\b|\bpetrolina\b|\bsuape\b|\bgara nhuns\b/i,null],
+ ['PNADC / trabalho',/\bpnad\b|\bpnadc\b|desemprego|desalent/i,/mercado de trabalho|ocupacao|rendimento do trabalho/i],
+ ['Setores econômicos',/\bindustria\b|\bservicos\b|\bcomercio\b|agropecuaria|construcao civil/i,/atividade economica|investimento produtivo/i],
+ ['Aeroportos e portos',/\banac\b|\bantaq\b|movimentacao de passageiros|movimentacao portuaria/i,/aeroporto|portuario|porto de suape|carga aerea/i],
+ ['Pesquisas anuais',/\bpac\b|\bpia\b|\bpas\b|\bpam\b|\bppm\b|\brais\b|pnad continua anual/i,null],
+ ['Desenvolvimento / IPS / IDHM',/\bidhm\b|\bips\b|indice de desenvolvimento humano|progresso social/i,/desigualdade|educacao|pobreza|saneamento/i]
+];
+function noteTopics(i){let text=fold([i.title,i.summary,...i.topics].join(' '));return noteRules.flatMap(([name,direct,context])=>direct.test(text)?['Nota: '+name+' · menção direta']:context&&context.test(text)?['Nota: '+name+' · contexto a investigar']:[])}
+function enrichNotes(i){let item={...i,topics:Array.isArray(i.topics)?[...i.topics]:[]};for(const tag of noteTopics(item))if(!item.topics.includes(tag))item.topics.push(tag);if(/tiago cavalcanti/i.test(fold([item.author,item.title].join(' '))))item.topics.push('Autor em destaque · Tiago Cavalcanti');return item}
+
 let data,items=[],view='suggestions',limit=18,current=null,saved={},notes={},ratings={},layout='journal',model={};
 try{saved=JSON.parse(localStorage.getItem('oe-saved')||'{}')||{};notes=JSON.parse(localStorage.getItem('oe-notes')||'{}')||{};ratings=JSON.parse(localStorage.getItem('oe-feedback-v1')||'{}')||{};layout=localStorage.getItem('oe-layout-v2')||'journal'}catch{}
 ratings=Object.assign(Object.create(null),ratings);
@@ -24,7 +46,7 @@ function toast(text){$('#toast').textContent=text;$('#toast').style.display='blo
 function rebuildModel(){model={};Object.values(ratings).forEach(r=>{if(!Number.isInteger(r.value)||r.value<0||r.value>4)return;for(const f of r.features||[]){let x=model[f]||(model[f]={sum:0,n:0});x.sum+=r.value-2;x.n++}})}
 function affinity(i){let score=0,weight=0;for(const f of features(i)){let m=model[f];if(!m)continue;let w=f.startsWith('t:')?2:f.startsWith('c:')?1.5:f.startsWith('k:')?.65:.45;score+=w*m.sum/(m.n+3);weight+=w}return weight?score/Math.sqrt(weight)*7:0}
 const age=i=>i.date?Math.max(0,(Date.now()-Date.parse(i.date+'T12:00:00Z'))/86400000):3650;
-function score(i){return 20/(1+age(i)/3)+(world(i)?4:0)+(i.titleVerified?2:0)+Math.min(channels(i).length,3)+affinity(i)}
+function score(i){return (/tiago cavalcanti/i.test(fold([i.author,i.title].join(' ')))?1000:0)+20/(1+age(i)/3)+(world(i)?4:0)+(i.titleVerified?2:0)+Math.min(channels(i).length,3)+affinity(i)}
 function rated(id){return Object.prototype.hasOwnProperty.call(ratings,id)}
 function date(d){return d?new Date(d+'T12:00:00').toLocaleDateString('pt-BR'):'Date unavailable'}
 function safeUrl(u){try{return /^https?:$/.test(new URL(u).protocol)?u:'#'}catch{return '#'}}
@@ -80,7 +102,7 @@ async function refreshEdition(notify=false){
  try{
   const response=await fetch('data.json',{cache:'no-store'});if(!response.ok)throw Error('Acervo indisponível');
   const next=await response.json();if(!Array.isArray(next.items))throw Error('Acervo inválido');data=next;
-  items=data.items.map(i=>({...i,topics:Array.isArray(i.topics)?i.topics:[]}));
+  items=data.items.map(enrichNotes);
   $('#total').textContent=items.length;$('#vehicles').textContent=new Set(items.map(i=>i.source)).size;
   $('#peTotal').textContent=items.filter(i=>i.region==='Pernambuco').length;$('#worldCount').textContent=items.filter(world).length;
   for(const [id,values] of [['topic',items.flatMap(i=>i.topics)],['source',items.map(i=>i.source)]]){
