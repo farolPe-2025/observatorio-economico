@@ -12,7 +12,7 @@ const noteRules=[
  ['Novo CAGED',/\bcaged\b|emprego formal|carteira assinada/i,/contratac|demisso|mercado de trabalho/i],
  ['Empresas',/abertura de empresas|fechamento de empresas|saldo de empresas|mapa de empresas/i,/empreendedor|falencia|recuperacao judicial/i],
  ['Inadimplência',/inadimplen|superendivid/i,/endividamento|credito|renegociacao de dividas/i],
- ['Municípios de Pernambuco',/\bpernambuco\b|\brecife\b|\bcaruaru\b|\bpetrolina\b|\bsuape\b|\bgara nhuns\b/i,null],
+ ['Municípios de Pernambuco',/\bpernambuco\b|\brecife\b|\bcaruaru\b|\bpetrolina\b|\bsuape\b|\bgaranhuns\b/i,null],
  ['PNADC / trabalho',/\bpnad\b|\bpnadc\b|desemprego|desalent/i,/mercado de trabalho|ocupacao|rendimento do trabalho/i],
  ['Setores econômicos',/\bindustria\b|\bservicos\b|\bcomercio\b|agropecuaria|construcao civil/i,/atividade economica|investimento produtivo/i],
  ['Aeroportos e portos',/\banac\b|\bantaq\b|movimentacao de passageiros|movimentacao portuaria/i,/aeroporto|portuario|porto de suape|carga aerea/i],
