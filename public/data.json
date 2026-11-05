@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T11:45:42.353Z",
-  "lastCollection": "2026-11-05T11:45:42.353Z",
+  "generatedAt": "2026-11-05T11:55:47.787Z",
+  "lastCollection": "2026-11-05T11:55:47.787Z",
   "schedule": "07:00 · America/Recife",
   "items": [
     {
@@ -38578,65 +38578,423 @@
       "titleVerified": true,
       "kind": "noticia",
       "discoveredAt": "2026-11-05T11:45:42.353Z"
+    },
+    {
+      "source": "Valor Econômico",
+      "title": "Déficit de automóveis cresce 835% com invasão chinesa e perda argentina",
+      "date": "2026-11-05",
+      "topics": [
+        "Comércio exterior",
+        "Indústria e investimentos"
+      ],
+      "summary": "Referência identificada em recorte da edição impressa enviado pelo editor.",
+      "author": "Marta Watanabe e Álvaro Fagundes",
+      "id": "328acaaf498f3e3e",
+      "kind": "noticia",
+      "url": null,
+      "language": "pt",
+      "scope": "domestic",
+      "region": "Brasil",
+      "origin": "Referência enviada pelo editor · Valor Econômico, 05/11/2026",
+      "titleVerified": true,
+      "verification": "user-screenshot",
+      "printEdition": "2026-11-05",
+      "printPage": null
+    },
+    {
+      "source": "Valor Econômico",
+      "title": "Governo publica MP do Imposto Seletivo",
+      "date": "2026-11-05",
+      "topics": [
+        "Fiscal e tributação"
+      ],
+      "summary": "Referência identificada em recorte da edição impressa enviado pelo editor.",
+      "author": "Giordanna Neves",
+      "id": "a9e1ba9b15c4926a",
+      "kind": "noticia",
+      "url": null,
+      "language": "pt",
+      "scope": "domestic",
+      "region": "Brasil",
+      "origin": "Referência enviada pelo editor · Valor Econômico, 05/11/2026",
+      "titleVerified": true,
+      "verification": "user-screenshot",
+      "printEdition": "2026-11-05",
+      "printPage": null
+    },
+    {
+      "source": "Valor Econômico",
+      "title": "Com 121 mil vagas, Caged tem o pior setembro desde 2020",
+      "date": "2026-11-05",
+      "topics": [
+        "Emprego e renda",
+        "Novo CAGED"
+      ],
+      "summary": "Referência identificada em recorte da edição impressa enviado pelo editor.",
+      "author": "Marcelo Osakabe e Mariana Andrade",
+      "id": "80bd7b3942c76f76",
+      "kind": "noticia",
+      "url": null,
+      "language": "pt",
+      "scope": "domestic",
+      "region": "Brasil",
+      "origin": "Referência enviada pelo editor · Valor Econômico, 05/11/2026",
+      "titleVerified": true,
+      "verification": "user-screenshot",
+      "printEdition": "2026-11-05",
+      "printPage": null
+    },
+    {
+      "source": "Valor Econômico",
+      "title": "Mercado de insumos deve se recuperar em 2027, diz banco",
+      "date": "2026-11-05",
+      "topics": [
+        "Agropecuária"
+      ],
+      "summary": "Referência identificada em recorte da edição impressa enviado pelo editor.",
+      "author": "Raphael Salomão",
+      "id": "91eddad3f3ca3fa6",
+      "kind": "noticia",
+      "url": null,
+      "language": "pt",
+      "scope": "domestic",
+      "region": "Brasil",
+      "origin": "Referência enviada pelo editor · Valor Econômico, 05/11/2026",
+      "titleVerified": true,
+      "verification": "user-screenshot",
+      "printEdition": "2026-11-05",
+      "printPage": null
+    },
+    {
+      "source": "O Globo",
+      "title": "Enem 2026 tem recorde de inscritos de até 16 anos e antecipa pressão do vestibular",
+      "date": "2026-11-05",
+      "topics": [
+        "Educação e desenvolvimento"
+      ],
+      "summary": "Referência identificada em recorte da edição impressa enviado pelo editor.",
+      "id": "94a457e35c4cdea9",
+      "kind": "noticia",
+      "url": null,
+      "language": "pt",
+      "scope": "domestic",
+      "region": "Brasil",
+      "origin": "Referência enviada pelo editor · O Globo, 05/11/2026",
+      "titleVerified": true,
+      "verification": "user-screenshot",
+      "printEdition": "2026-11-05",
+      "printPage": null
+    },
+    {
+      "source": "O Globo",
+      "title": "Após 5 reduções, BC mantém taxa básica em 13,75% perante ‘cenário desafiador’",
+      "date": "2026-11-05",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "summary": "Referência identificada em recorte da edição impressa enviado pelo editor.",
+      "id": "bd0ba11d6657fef5",
+      "kind": "noticia",
+      "url": null,
+      "language": "pt",
+      "scope": "domestic",
+      "region": "Brasil",
+      "origin": "Referência enviada pelo editor · O Globo, 05/11/2026",
+      "titleVerified": true,
+      "verification": "user-screenshot",
+      "printEdition": "2026-11-05",
+      "printPage": null
+    },
+    {
+      "source": "O Globo",
+      "title": "Comércio e indústria recorrem ao STF com questionamentos ao fim da 6x1",
+      "date": "2026-11-05",
+      "topics": [
+        "Emprego e renda",
+        "6x1"
+      ],
+      "summary": "Referência identificada em recorte da edição impressa enviado pelo editor.",
+      "author": "Sarah Teófilo, Pepita Ortega e Carolina Nalin",
+      "id": "32807c972d2795ed",
+      "kind": "noticia",
+      "url": null,
+      "language": "pt",
+      "scope": "domestic",
+      "region": "Brasil",
+      "origin": "Referência enviada pelo editor · O Globo, 05/11/2026",
+      "titleVerified": true,
+      "verification": "user-screenshot",
+      "printEdition": "2026-11-05",
+      "printPage": null
+    },
+    {
+      "source": "O Globo",
+      "title": "Geração de vagas formais cai 43,5% em setembro",
+      "date": "2026-11-05",
+      "topics": [
+        "Emprego e renda",
+        "Novo CAGED"
+      ],
+      "summary": "Referência identificada em recorte da edição impressa enviado pelo editor.",
+      "author": "Carolina Nalin",
+      "id": "6fda53badc2a3541",
+      "kind": "noticia",
+      "url": null,
+      "language": "pt",
+      "scope": "domestic",
+      "region": "Brasil",
+      "origin": "Referência enviada pelo editor · O Globo, 05/11/2026",
+      "titleVerified": true,
+      "verification": "user-screenshot",
+      "printEdition": "2026-11-05",
+      "printPage": null
+    },
+    {
+      "id": "5a52c7258c80b554",
+      "title": "Ibovespa avança em meio à queda dos juros futuros e à espera do Copom",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOb3NLeUJkTTg0VlVHYzB2ay1lZmplLXlYd25fSE5ZMkZkNEVQMVhuOTNWZkhObU9CTnEzMmF0VFJqY1U3NWktU2RFZjdVT2VqSDV6R2RNOWhnUTBYd0x6ZmJrWkVSS0N0b2s4QllhUzdaNndaUl9rdkdOWlVwNHp1VllGV2ltVGVMVng3V2RHejdSaEotZ1QtUmNobjUtRWhzdEFOVDM4SXBvS2R2QnU5RVd6N01wamJJeE5XZjRrVlEwa3lqOFNVb2gzZm9NQS02QzZJRdIB1AFBVV95cUxOb3NLeUJkTTg0VlVHYzB2ay1lZmplLXlYd25fSE5ZMkZkNEVQMVhuOTNWZkhObU9CTnEzMmF0VFJqY1U3NWktU2RFZjdVT2VqSDV6R2RNOWhnUTBYd0x6ZmJrWkVSS0N0b2s4QllhUzdaNndaUl9rdkdOWlVwNHp1VllGV2ltVGVMVng3V2RHejdSaEotZ1QtUmNobjUtRWhzdEFOVDM4SXBvS2R2QnU5RVd6N01wamJJeE5XZjRrVlEwa3lqOFNVb2gzZm9NQS02QzZJRQ?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-04",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-05T11:55:46.694Z"
+    },
+    {
+      "id": "5b65ed38b3aa9dde",
+      "title": "Barra para novos cortes da Selic agora parece ser alta, diz Caruso, do Santander",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU3FmajhCM3BCWEdtc1RhU3lmemFicERwTzBlWUxqdGJTNFFJQ1IxVnZZSXk2SWJKQ2pHbU56MlYzVjRNZDd4dDB1aEptWlM5aGRNZTVFWUxyR3FrRnBCaDRfZ2tsMHNqRUt2UW05VE9fODZ5WC1VeDRoWmlEZ2VtVGNENzRqOUJzbW9HdHdXLUpVRDExd0hQMmQyWGlxeks0SVJzeDlzbzJDVXZpaU5HeXRXR2lzRUE3V3VBMUp2UVZUd1M5bjlkNFFyUmhLSWkycmfSAeABQVVfeXFMT3JGMXprZ1pxMERVdVVZcjZUVlpGOFpKRFVyV1FMb1FZVVZaczdLQUNzZWRrdU9zV3ZBS3pnNUItRXAwQkNnRXBQTTJSbUlXOVUtLWV5Z0tVYnZadlJ0NHBqdGRkNnhONF9Yb0JxdlpOZ3VGY21qbTBXZ2l2QjNQUVMyNWgzOEdqaXZfclJQRjcxZTl5X3o1SWtsRWY3V20ydFpMOUEwaTVmazQzR0lidGt5R24tZmsyRGpZWFZvYTN3OXFGdmRxcDhDd0s5TEZ2Y1JwR3JZX0o3R1Jzb2pKSVA?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-05",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-05T11:55:46.697Z"
+    },
+    {
+      "id": "b03119cb1a6c4b48",
+      "title": "Caruso, do Santander: barra para novos cortes da Selic agora parece ser alta",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlpvVDZraFNIQTYxbHc4ZENqQ2RjcVpnV3dscjluRVE1NnU3ZlR0eXZvc0I4eXhaeVNKQmZfY2VoSTAxLUgxbkJSV3pkQWVJTGtBWDZYOEdMYW9fclBRVFdBNGxoa0RBVi1STVR4dWdCcFdVUEdndnJSV093Tk4zWnZ2eERfbDZndzF3ODVRU0szTG5XNUNEM2R2VkdrV293d0VPUUY1bDhjOHpLeTdQNUplNExRTkhySF96UEtvSmo3V1ZDcmdfam5uN1lTV1UxR3dTbHJR0gHkAUFVX3lxTE1qMW5LcmY4TUFGckZhYUNBbHNfN3JmVTF0a2JlelA5akJ6aGdaa2dYVnJvcUQ5anFRRGxaclVuelBkdHlHQTZ3WE9vQlpMZzdWaDZwNDNKRVZELVVZd0UzaG5makQtcVNOWTcyQ3NNWWNEa2t5NklyNkFoUVpQODJ4N2pWaVZBakdoZGRMaDBfMDktR1k5VlZYYm1jRTc3VXcyY3pzNXp3MGdtaUJwcG5YYW9PclB3dlA2SkNpdFVVMkNtSVgwRUo2M3BEUVhnN2lYNXRtRmhtdDBNR2hHcXN4bjRVSg?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-05",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-05T11:55:46.697Z"
+    },
+    {
+      "id": "1d7bff318b0baba6",
+      "title": "Manhã no mercado: Sinais fiscais e exterior dividem atenções após manutenção da Selic em 13,75%",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNaF9rSW5tMUQwczBTMS03bGJVOTRCTGNsbGpJeGs5TDc3bzBrNldzU0J0V0lkYTQzcWQ3RDVaYUtqV1ZvT2Y5MC1GaWVLWEtHNUNzcjNJUExuc3VEQl9jd0JaT2U1QV9qUUZ6U1pVSFhaYUJjNGhGREdrUEZlLU9GNFIwa0FfYTdiZThpalBpN05JVVhmelJQeFlFV19OYWZZYUhhYk1xamZBWTQ4ZnQyNHJ4Y2JmcVh5b044NWw3QnQ5MW5kQzBwNV9janhhVU1GVHRRSTdNcWcxXzhqdHlnNjJQOXFNdVhOendDenRR0gH8AUFVX3lxTE9LWGdvVGc2OHl1TmJFd01TR2E2TDdUeTFVd212NXF6OW1iNUZHSS1KSXZ4MXdlcEFyTHBvV0RPT0xqZV9ncmFsWjhZaUZmdVNqbHZHdmRWVkRvY1lHRUE2VmNGWll6Y2h1a09OSC1QeUx0OEJkUTF1eW5FaGpKM2x2VU1wWURUblZzY001ckFKTmJjdG5rN0NqWnRRX0U4eDY3ZWNqQzVxMHBMaDZneFBpT1N6azFOcTZCM0lEempTUWZFdDJkaTVFZ0dCS1NBem1Ja0diQkFfYXRybXE0NlRwRlBXVTZ4NGR6STdlZXRNd2dOTC04R2dlYzE1ZQ?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-05",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-05T11:55:46.697Z"
+    },
+    {
+      "id": "fd1475b149089f40",
+      "title": "PMI de serviços dos EUA cai para 56,1 em outubro, diz S&P Global",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcTNHdVpadmhrTDl4T0Nma1lINVJPcU9hZlNRVnVpNmlwV2ZjM3U1VnJEbDNPY3FjeWZtZTd3NWZ4aU1Od2NIUUxlWkwyRXphY3pFM0FyTDdmeVkwY1MzYkdEZkc2Q25Fb0tZQjNxbkstQ3hNRVplYm53b2FpcW5peE5NOXE3cWNraUJyczV1SkxLV3F4ek9QYmlYM3M0ZWF0eVRLTER0ODdGTmQwM1pmY1F3OWtmZXdLUkQ40gHKAUFVX3lxTE53RF9LNEJ0dm4yTmZkM0JoOS1LbHhZdlhmaGxmUFlDX1pST29Yb0c5SFUzQjRXSGhEWWFJWVo1NnExeTQzclFWWml6R0FMZ2NXVlN0RjlIR2FlbVBTMjdHQVlGYjNzQzB3eWIxeHg2YlhMX1lRZkFZSF9oRWlGSGl2WGNEMmJyUmJaN2VhdlVlN3hqYzJSdWpPSFJGdW9sRHRLMzZfU0plV09oVlU4UVpWUGc5SGNyRE02MzkxZXJuS21yRE44N0lKX2c?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-04",
+      "topics": [
+        "Comércio e serviços"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-05T11:55:46.697Z"
+    },
+    {
+      "id": "14fdd50bafa9b97e",
+      "title": "Lindbergh Farias diz que manutenção da Selic é ‘vergonha’ e chama mercado de ‘barões da Faria Lima’",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQakFRYU4yR0RhdlVRdjRmSDdIdTVuTjJDNUVkX3doS0ZlaDZHTVVmNURDSmVPX2dySkZjZGVjVEc3dmo5X0lKaGVYXzFFRS1aVFRSeGwzT0NSVmtGdGc4bjNBNUF0WE91aE8xd0JVOUkzdWMzbGd0V3VKTTBiRjlLQmlsbzRBeE4zUGhsckN2SXBVV0I2dGpCT2FOLS1RSXhuUWpUVWVXQ2xfX09ieUs5NFVjTTRXa3Ryb3BJZUtsdkhhaXA5c3FCYmpjZXBDbV9OUUQtamZ3ZUJhRlBSMldmTEJR0gHwAUFVX3lxTFBFNDNkOHpPWVZfWWY3ZVlNbG5YbWlMYTdjM0FiOWI4TFVCUUptaUg1eXRkeHZSZzZZVERscnZ4QVE0cDgySWlMQTMyRm51aW1mNmthYTU2WUJvR3VxSHYyZzdiTjQ3WnZWMUxmRllsYXNVR0lDZGowZjNITUJKTXZjTURlbW94cENfZUFhdnBqa3pVWkhZYnIyamhQVU1KZHlYRkd3cng4ZUVCTEdldnEyU0VkSUpyanZYa0NHRTV1Rl96a0pSUjVhWU04M3JaNzdLZi1hVDdsUzBnQjFHTEh1R2kxaXJkUlpvSVZtbWxwQQ?oc=5",
+      "source": "Valor Econômico",
+      "date": "2026-11-05",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "domestic",
+      "language": "pt",
+      "region": "Brasil e mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-05T11:55:46.697Z"
+    },
+    {
+      "id": "05d784a456a9409d",
+      "title": "AI stocks, oil fall as investors bet on change after US election 'blue wave'",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-05",
+      "topics": [
+        "Indústria e investimentos",
+        "Energia e clima"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-05T11:55:47.114Z"
+    },
+    {
+      "id": "0496db55be2b99d5",
+      "title": "Dollar declines after Democrats take US Congress in midterm elections",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMG9Jam5JQ09uMEx5R0FoYnl4ajRFeU03eDQ0RXUyc3FqZ0xxdVo1czh6MUw0Z2E2UDlYcjJMWjR4WnQ4RUVXWVBWMXNqa29IUnl5MEl1TEF6UmhGaGloLXk5MDRSclZ5MXFsMDJXSmxTYnM1Tmc3VDFUbTBCOW5CUVFVSDhBWFYtbG1ickM0eVZBUWdf?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-04",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-05T11:55:47.114Z"
+    },
+    {
+      "id": "98915f0efe9372ba",
+      "title": "PODCAST: Oil heads for pandemic-era fall",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTUN4a1BScS1wZnluYTlzUWEwR0EtSUhnWU9VMGtEMkc3Y21FenVPbDU3X0dkak83aDh3VmFYdzltcVVuN3F3ZFJrLWwxeWxmZDZ1ZlNNeG9uY1FfQXdoc0xMYUh1T3hHeV9Ib3BtNGpRLXBPQVYxd3h1aEoxVklTVjlsOW01bXdTX3JJUzJrbGxwdzRKckk0?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-05",
+      "topics": [
+        "Energia e clima"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-05T11:55:47.115Z"
+    },
+    {
+      "id": "ca58f6c9f3995182",
+      "title": "Wall Street ends higher after Democrats win Congress; data center stocks tumble",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWpBY1VHMFd5a2tJXzM1RFFFQTl5Y09aVDgza095UkJKVzNnQ3F4VW1pMzBEazJKMGhlS21zUEdCLXJPOVhWdXRnZmlLRHliMDdqYmt2b2ZWYk5FeW85VnBSalpRd1E5b3BVSUZDU2VLMUNiQm41YWw1SUgxV2dWaUFZUkI2MllhY0Z5ZkZHcWNuQmdCaHBKbVRhck1meTRz?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-04",
+      "topics": [
+        "Indústria e investimentos"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-05T11:55:47.115Z"
+    },
+    {
+      "id": "3cdd36329148135e",
+      "title": "Canadian dollar pulls back from six-week high ahead of key jobs data",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVVAzLVR0Q0RIUXNCM3c5OG9UWl8yeFIzeldSWkpDVUlaY1ZjMDNnVE1LaEcxYm9mY2tCR01FRlNQQ3I2NmNXOEJ3M01Jd0Ruc1FvYmxkWmdIYll0eHMza1g0d1hPb0Y1SVRzWjM5UDdmdll1MWxDTTBZS2xzNkxpclhnVUJuQjNvcDRaU1lqNGFwR3hZTnFSbm8wUWJtbUM1LXVxWVRBZ3I?oc=5",
+      "source": "Reuters",
+      "date": "2026-11-03",
+      "topics": [
+        "Juros e inflação"
+      ],
+      "scope": "international",
+      "language": "en",
+      "region": "Mundo",
+      "origin": "Descoberta automática · índice público",
+      "titleVerified": true,
+      "kind": "noticia",
+      "discoveredAt": "2026-11-05T11:55:47.115Z"
     }
   ],
   "collectionStatus": "ok",
   "collectionLog": [
     {
-      "source": "Diário de Pernambuco",
-      "scope": "domestic",
-      "status": "ok",
-      "matched": 21,
-      "added": 13
-    },
-    {
       "source": "Poder360",
       "scope": "domestic",
       "status": "ok",
       "matched": 38,
-      "added": 14
+      "added": 0
     },
     {
-      "source": "Valor Econômico",
+      "source": "Diário de Pernambuco",
       "scope": "domestic",
       "status": "ok",
-      "matched": 55,
-      "added": 24
+      "matched": 21,
+      "added": 0
     },
     {
       "source": "O Globo",
       "scope": "domestic",
       "status": "ok",
       "matched": 43,
-      "added": 19
+      "added": 0
+    },
+    {
+      "source": "Valor Econômico",
+      "scope": "domestic",
+      "status": "ok",
+      "matched": 65,
+      "added": 6
     },
     {
       "source": "Folha de Pernambuco",
       "scope": "domestic",
       "status": "ok",
       "matched": 23,
-      "added": 18
+      "added": 0
     },
     {
       "source": "JC",
       "scope": "domestic",
       "status": "ok",
       "matched": 29,
-      "added": 10
+      "added": 0
     },
     {
       "source": "Reuters",
       "scope": "international",
       "status": "ok",
-      "matched": 53,
-      "added": 24
+      "matched": 61,
+      "added": 5
     },
     {
       "source": "Financial Times",
       "scope": "international",
       "status": "ok",
       "matched": 30,
-      "added": 12
+      "added": 0
     },
     {
       "source": "Federal Reserve",
@@ -38649,7 +39007,7 @@
       "source": "FMI",
       "scope": "international",
       "status": "ok",
-      "matched": 10,
+      "matched": 11,
       "added": 0
     },
     {
@@ -38664,14 +39022,14 @@
       "scope": "international",
       "status": "ok",
       "matched": 17,
-      "added": 4
+      "added": 0
     },
     {
       "source": "BCE",
       "scope": "international",
       "status": "ok",
       "matched": 11,
-      "added": 2
+      "added": 0
     }
   ],
   "collectorVersion": 2,
